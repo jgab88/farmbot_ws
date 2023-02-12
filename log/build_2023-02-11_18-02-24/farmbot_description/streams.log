@@ -1,0 +1,17 @@
+[1.447s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[1.824s] running develop
+[2.275s] running egg_info
+[2.276s] writing farmbot_description.egg-info/PKG-INFO
+[2.276s] writing dependency_links to farmbot_description.egg-info/dependency_links.txt
+[2.276s] writing entry points to farmbot_description.egg-info/entry_points.txt
+[2.277s] writing requirements to farmbot_description.egg-info/requires.txt
+[2.277s] writing top-level names to farmbot_description.egg-info/top_level.txt
+[2.336s] reading manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[2.337s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[2.405s] running build_ext
+[2.405s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[2.407s] 
+[2.407s] Installed /home/jg/farmbot_ws/build/farmbot_description
+[2.407s] running install_data
+[2.407s] copying urdf/farmbot.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[2.464s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data

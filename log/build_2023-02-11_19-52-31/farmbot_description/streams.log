@@ -1,0 +1,18 @@
+[0.978s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[1.332s] running develop
+[1.553s] running egg_info
+[1.553s] writing farmbot_description.egg-info/PKG-INFO
+[1.553s] writing dependency_links to farmbot_description.egg-info/dependency_links.txt
+[1.554s] writing entry points to farmbot_description.egg-info/entry_points.txt
+[1.554s] writing requirements to farmbot_description.egg-info/requires.txt
+[1.554s] writing top-level names to farmbot_description.egg-info/top_level.txt
+[1.601s] reading manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.602s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.656s] running build_ext
+[1.656s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[1.658s] 
+[1.658s] Installed /home/jg/farmbot_ws/build/farmbot_description
+[1.658s] running install_data
+[1.659s] copying launch/display.launch.py -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[1.659s] copying launch/gazebo.launch.py -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[1.698s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
