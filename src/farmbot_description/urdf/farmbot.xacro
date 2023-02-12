@@ -4,7 +4,8 @@
 <xacro:include filename="$(find farmbot_description)/urdf/materials.xacro" />
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/farmbot.trans" /> -->
 <xacro:include filename="$(find farmbot_description)/urdf/farmbot.gazebo" />
-<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control.xacro" />
+<!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control.xacro" />  # Diff drive Controller  -->
+<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_skid.xacro" />  <!-- Skid Steer Controller-->
 
 <link name="base_link">
   <inertial>
