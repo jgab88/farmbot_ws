@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<robot name="farmbot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+ <gazebo>
+  <!-- <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so"> -->
+    
+    <!-- Wheel info -->
+   <!-- <left_joint>Revolute 2</left_joint>
+    <right_joint>Revolute 3</right_joint>
+    <wheel_seperation>0.23</wheel_seperation>
+    <wheel_diameter>0.174</wheel_diameter> -->
+
+    <!-- limits -->
+    <!-- <max_wheel_torque>200</max_wheel_torque>
+    <max_wheel_acceleration>10.0</max_wheel_acceleration> -->
+
+    <!-- Output -->
+    <!-- <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_link</robot_base_frame> -->
+
+   <!-- <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+    <publish_wheel_tf>true</publish_wheel_tf>
+  </plugin> -->
+
+  
+</gazebo>
+<gazebo reference="base_link"> <!-- Rear Chassis -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="component__1__1"> <!-- Steering chassis -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="component__2__1"> <!-- front right wheel -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="component__2__2"> <!-- front left wheel -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="component__2__3"> <!-- rear right wheel -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="component__2__4"> <!-- rear left wheel -->
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+</robot>
