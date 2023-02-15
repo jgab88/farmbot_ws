@@ -1,0 +1,610 @@
+[0.000000] (-) TimerEvent: {}
+[0.001090] (farmbot_description) JobQueued: {'identifier': 'farmbot_description', 'dependencies': OrderedDict()}
+[0.001597] (farmbot_gazebo_plugin) JobQueued: {'identifier': 'farmbot_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.003313] (farmbot_description) JobStarted: {'identifier': 'farmbot_description'}
+[0.022607] (farmbot_gazebo_plugin) JobStarted: {'identifier': 'farmbot_gazebo_plugin'}
+[0.043633] (farmbot_description) JobProgress: {'identifier': 'farmbot_description', 'progress': 'cmake'}
+[0.044843] (farmbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/jg/farmbot_ws/src/farmbot_description', '-DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_description'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[0.055569] (farmbot_gazebo_plugin) JobProgress: {'identifier': 'farmbot_gazebo_plugin', 'progress': 'cmake'}
+[0.056451] (farmbot_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/jg/farmbot_ws/src/farmbot_gazebo_plugin', '-DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_gazebo_plugin'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[0.099163] (-) TimerEvent: {}
+[0.131535] (farmbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.139070] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199407] (-) TimerEvent: {}
+[0.211339] (farmbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.218491] (farmbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.218895] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.225853] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299578] (-) TimerEvent: {}
+[0.321251] (farmbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.322570] (farmbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.326018] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.327366] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399722] (-) TimerEvent: {}
+[0.426398] (farmbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.427948] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.442537] (farmbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.442969] (farmbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.444001] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.444482] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.446499] (farmbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.448020] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499909] (-) TimerEvent: {}
+[0.567106] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.568380] (farmbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.568759] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.570052] (farmbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600097] (-) TimerEvent: {}
+[0.684592] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.685116] (farmbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700202] (-) TimerEvent: {}
+[0.700934] (farmbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.701339] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.701728] (farmbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.702002] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.705730] (farmbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.710980] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.717499] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.739427] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.744844] (farmbot_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.745185] (farmbot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800340] (-) TimerEvent: {}
+[0.900873] (-) TimerEvent: {}
+[0.912445] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[0.992096] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.001069] (-) TimerEvent: {}
+[1.072191] (farmbot_description) StdoutLine: {'line': b'-- Found rviz2: 8.2.7 (/opt/ros/foxy/share/rviz2/cmake)\n'}
+[1.073624] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.076223] (farmbot_description) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.101176] (-) TimerEvent: {}
+[1.109134] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.151637] (farmbot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.163582] (farmbot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201366] (-) TimerEvent: {}
+[1.281297] (farmbot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.301463] (-) TimerEvent: {}
+[1.326506] (farmbot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.401634] (-) TimerEvent: {}
+[1.448866] (farmbot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.501774] (-) TimerEvent: {}
+[1.538653] (farmbot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.541265] (farmbot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.542729] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.573571] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.601929] (-) TimerEvent: {}
+[1.607044] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.614771] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.624058] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.626643] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.627365] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.634552] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.651617] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.652071] (farmbot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.656691] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.702049] (-) TimerEvent: {}
+[1.710636] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.724011] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.739008] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.750249] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.750556] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.759500] (farmbot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.759986] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.760750] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.761051] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.771262] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.771491] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.781857] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.782170] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.792678] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.792936] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.802145] (-) TimerEvent: {}
+[1.803155] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.850932] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.851462] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.902318] (-) TimerEvent: {}
+[1.956022] (farmbot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.957628] (farmbot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.002430] (-) TimerEvent: {}
+[2.015550] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.018866] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.019597] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.045140] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.060435] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.066596] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.088668] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.102608] (-) TimerEvent: {}
+[2.145793] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.153586] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.175007] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.184432] (farmbot_description) StdoutLine: {'line': b'-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.187144] (farmbot_description) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[2.202730] (-) TimerEvent: {}
+[2.225885] (farmbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.229985] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.233324] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.234132] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.260583] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.267539] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.289538] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.302911] (-) TimerEvent: {}
+[2.350018] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.353598] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.354568] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.354990] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.356442] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.359116] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.372411] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.375543] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.376331] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.376908] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.381408] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.382081] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.403050] (-) TimerEvent: {}
+[2.407340] (farmbot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.410428] (farmbot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.410727] (farmbot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jg/farmbot_ws/src/farmbot_description/include>\n'}
+[2.410912] (farmbot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.413584] (farmbot_description) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.413797] (farmbot_description) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.414747] (farmbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.416078] (farmbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.417331] (farmbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.420363] (farmbot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.420651] (farmbot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.421797] (farmbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.426642] (farmbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.432321] (farmbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.434607] (farmbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/jg/farmbot_ws/build/farmbot_description\n'}
+[2.448046] (farmbot_description) CommandEnded: {'returncode': 0}
+[2.449443] (farmbot_description) JobProgress: {'identifier': 'farmbot_description', 'progress': 'build'}
+[2.451102] (farmbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jg/farmbot_ws/build/farmbot_description', '--', '-j10', '-l10'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[2.491576] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[2.503246] (-) TimerEvent: {}
+[2.503689] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.513870] (farmbot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target farmbot_description_node\x1b[0m\n'}
+[2.524721] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[2.529089] (farmbot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/farmbot_description_node.dir/src/farmbot_description_node.cpp.o\x1b[0m\n'}
+[2.571995] (farmbot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable farmbot_description_node\x1b[0m\n'}
+[2.580709] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.590809] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.603434] (-) TimerEvent: {}
+[2.612692] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[2.637191] (farmbot_description) StdoutLine: {'line': b'[100%] Built target farmbot_description_node\n'}
+[2.654433] (farmbot_description) CommandEnded: {'returncode': 0}
+[2.668964] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.669665] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.670235] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.670915] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.675463] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[2.691655] (farmbot_description) JobProgress: {'identifier': 'farmbot_description', 'progress': 'install'}
+[2.704192] (-) TimerEvent: {}
+[2.707444] (farmbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jg/farmbot_ws/build/farmbot_description'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[2.713655] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.713993] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.718691] (farmbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.719142] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/lib/farmbot_description/farmbot_description_node\n'}
+[2.719546] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch\n'}
+[2.720046] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/display.launch.py\n'}
+[2.720474] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/spawn_car.launch.py\n'}
+[2.720786] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/gazebo.launch.py\n'}
+[2.721171] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes\n'}
+[2.721480] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__3.stl\n'}
+[2.721777] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__1.stl\n'}
+[2.722178] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__4.stl\n'}
+[2.722494] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__1__1.stl\n'}
+[2.722865] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/base_link.stl\n'}
+[2.723284] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__2.stl\n'}
+[2.723598] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config\n'}
+[2.723885] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config/display.rviz\n'}
+[2.724145] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/src\n'}
+[2.724782] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/src/farmbot_description_node.cpp\n'}
+[2.725094] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf\n'}
+[2.725322] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_skid.xacro\n'}
+[2.725456] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/materials.xacro\n'}
+[2.725701] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.trans\n'}
+[2.725973] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.gazebo\n'}
+[2.726221] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.xacro\n'}
+[2.726522] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control.xacro\n'}
+[2.726662] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbotWorkingArchieve.xacro\n'}
+[2.726940] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds\n'}
+[2.727252] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/simple.world\n'}
+[2.727486] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/cafe.world\n'}
+[2.727740] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/cooneo_office.world\n'}
+[2.728003] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/lib/farmbot_description/spawn_bot.py\n'}
+[2.728134] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch\n'}
+[2.728477] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/display.launch.py\n'}
+[2.728751] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/spawn_car.launch.py\n'}
+[2.728931] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/gazebo.launch.py\n'}
+[2.729087] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf\n'}
+[2.729214] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/gazebo_control_skid.xacro\n'}
+[2.729334] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/materials.xacro\n'}
+[2.729454] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.trans\n'}
+[2.729577] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.gazebo\n'}
+[2.729697] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.xacro\n'}
+[2.730263] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/gazebo_control.xacro\n'}
+[2.730544] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbotWorkingArchieve.xacro\n'}
+[2.730903] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds\n'}
+[2.731175] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/simple.world\n'}
+[2.731435] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/cafe.world\n'}
+[2.731695] (farmbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/cooneo_office.world\n'}
+[2.732974] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//scripts\n'}
+[2.734206] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//scripts/spawn_bot.py\n'}
+[2.735403] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/package_run_dependencies/farmbot_description\n'}
+[2.738317] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/parent_prefix_path/farmbot_description\n'}
+[2.738989] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/ament_prefix_path.sh\n'}
+[2.739455] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/ament_prefix_path.dsv\n'}
+[2.740219] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/path.sh\n'}
+[2.741631] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/path.dsv\n'}
+[2.742157] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.bash\n'}
+[2.742739] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.sh\n'}
+[2.743299] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.zsh\n'}
+[2.743834] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.dsv\n'}
+[2.747690] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.dsv\n'}
+[2.750139] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/packages/farmbot_description\n'}
+[2.750740] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/cmake/farmbot_descriptionConfig.cmake\n'}
+[2.752016] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/cmake/farmbot_descriptionConfig-version.cmake\n'}
+[2.752387] (farmbot_description) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.xml\n'}
+[2.752672] (farmbot_description) CommandEnded: {'returncode': 0}
+[2.804416] (-) TimerEvent: {}
+[2.828815] (farmbot_description) JobEnded: {'identifier': 'farmbot_description', 'rc': 0}
+[2.904556] (-) TimerEvent: {}
+[3.005133] (-) TimerEvent: {}
+[3.105661] (-) TimerEvent: {}
+[3.120100] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.131988] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.205809] (-) TimerEvent: {}
+[3.250731] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.289669] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.305933] (-) TimerEvent: {}
+[3.406459] (-) TimerEvent: {}
+[3.412802] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.501526] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.504111] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.506538] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.506763] (-) TimerEvent: {}
+[3.607177] (-) TimerEvent: {}
+[3.707665] (-) TimerEvent: {}
+[3.733184] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[3.744652] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[3.747827] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.807793] (-) TimerEvent: {}
+[3.908338] (-) TimerEvent: {}
+[3.913875] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[3.964679] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.982901] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.008483] (-) TimerEvent: {}
+[4.109043] (-) TimerEvent: {}
+[4.209666] (-) TimerEvent: {}
+[4.310225] (-) TimerEvent: {}
+[4.410759] (-) TimerEvent: {}
+[4.488316] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.510903] (-) TimerEvent: {}
+[4.588956] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.611034] (-) TimerEvent: {}
+[4.635299] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[4.639112] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/jg/farmbot_ws/build/farmbot_gazebo_plugin\n'}
+[4.658378] (farmbot_gazebo_plugin) CommandEnded: {'returncode': 0}
+[4.660140] (farmbot_gazebo_plugin) JobProgress: {'identifier': 'farmbot_gazebo_plugin', 'progress': 'build'}
+[4.663623] (farmbot_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', '--', '-j10', '-l10'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[4.711187] (-) TimerEvent: {}
+[4.725930] (farmbot_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target farmbot_gazebo_plugin\x1b[0m\n'}
+[4.811422] (-) TimerEvent: {}
+[4.911997] (-) TimerEvent: {}
+[4.924575] (farmbot_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o\x1b[0m\n'}
+[5.012137] (-) TimerEvent: {}
+[5.112684] (-) TimerEvent: {}
+[5.213281] (-) TimerEvent: {}
+[5.313784] (-) TimerEvent: {}
+[5.414416] (-) TimerEvent: {}
+[5.514978] (-) TimerEvent: {}
+[5.615546] (-) TimerEvent: {}
+[5.716284] (-) TimerEvent: {}
+[5.816906] (-) TimerEvent: {}
+[5.917529] (-) TimerEvent: {}
+[6.018145] (-) TimerEvent: {}
+[6.118910] (-) TimerEvent: {}
+[6.219478] (-) TimerEvent: {}
+[6.320102] (-) TimerEvent: {}
+[6.420738] (-) TimerEvent: {}
+[6.521381] (-) TimerEvent: {}
+[6.622009] (-) TimerEvent: {}
+[6.722558] (-) TimerEvent: {}
+[6.823180] (-) TimerEvent: {}
+[6.923749] (-) TimerEvent: {}
+[7.024334] (-) TimerEvent: {}
+[7.124929] (-) TimerEvent: {}
+[7.225480] (-) TimerEvent: {}
+[7.326041] (-) TimerEvent: {}
+[7.426633] (-) TimerEvent: {}
+[7.527226] (-) TimerEvent: {}
+[7.627781] (-) TimerEvent: {}
+[7.728364] (-) TimerEvent: {}
+[7.829026] (-) TimerEvent: {}
+[7.929622] (-) TimerEvent: {}
+[8.030215] (-) TimerEvent: {}
+[8.130789] (-) TimerEvent: {}
+[8.231374] (-) TimerEvent: {}
+[8.331986] (-) TimerEvent: {}
+[8.432614] (-) TimerEvent: {}
+[8.533234] (-) TimerEvent: {}
+[8.633835] (-) TimerEvent: {}
+[8.734468] (-) TimerEvent: {}
+[8.835089] (-) TimerEvent: {}
+[8.936109] (-) TimerEvent: {}
+[9.036673] (-) TimerEvent: {}
+[9.137240] (-) TimerEvent: {}
+[9.237789] (-) TimerEvent: {}
+[9.338407] (-) TimerEvent: {}
+[9.439010] (-) TimerEvent: {}
+[9.539608] (-) TimerEvent: {}
+[9.640169] (-) TimerEvent: {}
+[9.740718] (-) TimerEvent: {}
+[9.841356] (-) TimerEvent: {}
+[9.941986] (-) TimerEvent: {}
+[10.042510] (-) TimerEvent: {}
+[10.143060] (-) TimerEvent: {}
+[10.243667] (-) TimerEvent: {}
+[10.344297] (-) TimerEvent: {}
+[10.444876] (-) TimerEvent: {}
+[10.545509] (-) TimerEvent: {}
+[10.646080] (-) TimerEvent: {}
+[10.746668] (-) TimerEvent: {}
+[10.847296] (-) TimerEvent: {}
+[10.947885] (-) TimerEvent: {}
+[11.048495] (-) TimerEvent: {}
+[11.149064] (-) TimerEvent: {}
+[11.249580] (-) TimerEvent: {}
+[11.350154] (-) TimerEvent: {}
+[11.450701] (-) TimerEvent: {}
+[11.551284] (-) TimerEvent: {}
+[11.651818] (-) TimerEvent: {}
+[11.752396] (-) TimerEvent: {}
+[11.852939] (-) TimerEvent: {}
+[11.953576] (-) TimerEvent: {}
+[12.054102] (-) TimerEvent: {}
+[12.154636] (-) TimerEvent: {}
+[12.255142] (-) TimerEvent: {}
+[12.355640] (-) TimerEvent: {}
+[12.456182] (-) TimerEvent: {}
+[12.556760] (-) TimerEvent: {}
+[12.657346] (-) TimerEvent: {}
+[12.757891] (-) TimerEvent: {}
+[12.858468] (-) TimerEvent: {}
+[12.959084] (-) TimerEvent: {}
+[13.059617] (-) TimerEvent: {}
+[13.160133] (-) TimerEvent: {}
+[13.260680] (-) TimerEvent: {}
+[13.361245] (-) TimerEvent: {}
+[13.461781] (-) TimerEvent: {}
+[13.562384] (-) TimerEvent: {}
+[13.662953] (-) TimerEvent: {}
+[13.763533] (-) TimerEvent: {}
+[13.864111] (-) TimerEvent: {}
+[13.964690] (-) TimerEvent: {}
+[14.065321] (-) TimerEvent: {}
+[14.165824] (-) TimerEvent: {}
+[14.266399] (-) TimerEvent: {}
+[14.367076] (-) TimerEvent: {}
+[14.467637] (-) TimerEvent: {}
+[14.568263] (-) TimerEvent: {}
+[14.668835] (-) TimerEvent: {}
+[14.769424] (-) TimerEvent: {}
+[14.869975] (-) TimerEvent: {}
+[14.970628] (-) TimerEvent: {}
+[15.071257] (-) TimerEvent: {}
+[15.171816] (-) TimerEvent: {}
+[15.272368] (-) TimerEvent: {}
+[15.372959] (-) TimerEvent: {}
+[15.473614] (-) TimerEvent: {}
+[15.574160] (-) TimerEvent: {}
+[15.674706] (-) TimerEvent: {}
+[15.775271] (-) TimerEvent: {}
+[15.875839] (-) TimerEvent: {}
+[15.976448] (-) TimerEvent: {}
+[16.077075] (-) TimerEvent: {}
+[16.177615] (-) TimerEvent: {}
+[16.278188] (-) TimerEvent: {}
+[16.378737] (-) TimerEvent: {}
+[16.479369] (-) TimerEvent: {}
+[16.580001] (-) TimerEvent: {}
+[16.680542] (-) TimerEvent: {}
+[16.781103] (-) TimerEvent: {}
+[16.881677] (-) TimerEvent: {}
+[16.982303] (-) TimerEvent: {}
+[17.082852] (-) TimerEvent: {}
+[17.183415] (-) TimerEvent: {}
+[17.284002] (-) TimerEvent: {}
+[17.384567] (-) TimerEvent: {}
+[17.485168] (-) TimerEvent: {}
+[17.585717] (-) TimerEvent: {}
+[17.686302] (-) TimerEvent: {}
+[17.793487] (-) TimerEvent: {}
+[17.894092] (-) TimerEvent: {}
+[17.994636] (-) TimerEvent: {}
+[18.095188] (-) TimerEvent: {}
+[18.195757] (-) TimerEvent: {}
+[18.296358] (-) TimerEvent: {}
+[18.396910] (-) TimerEvent: {}
+[18.497576] (-) TimerEvent: {}
+[18.598185] (-) TimerEvent: {}
+[18.698769] (-) TimerEvent: {}
+[18.799410] (-) TimerEvent: {}
+[18.899986] (-) TimerEvent: {}
+[19.000573] (-) TimerEvent: {}
+[19.101162] (-) TimerEvent: {}
+[19.201704] (-) TimerEvent: {}
+[19.302296] (-) TimerEvent: {}
+[19.402884] (-) TimerEvent: {}
+[19.503486] (-) TimerEvent: {}
+[19.604032] (-) TimerEvent: {}
+[19.704639] (-) TimerEvent: {}
+[19.805225] (-) TimerEvent: {}
+[19.905809] (-) TimerEvent: {}
+[20.006383] (-) TimerEvent: {}
+[20.106920] (-) TimerEvent: {}
+[20.207453] (-) TimerEvent: {}
+[20.308053] (-) TimerEvent: {}
+[20.408621] (-) TimerEvent: {}
+[20.509240] (-) TimerEvent: {}
+[20.609778] (-) TimerEvent: {}
+[20.710307] (-) TimerEvent: {}
+[20.810908] (-) TimerEvent: {}
+[20.911483] (-) TimerEvent: {}
+[21.012059] (-) TimerEvent: {}
+[21.112603] (-) TimerEvent: {}
+[21.213150] (-) TimerEvent: {}
+[21.313730] (-) TimerEvent: {}
+[21.414340] (-) TimerEvent: {}
+[21.514970] (-) TimerEvent: {}
+[21.615519] (-) TimerEvent: {}
+[21.716083] (-) TimerEvent: {}
+[21.816677] (-) TimerEvent: {}
+[21.917304] (-) TimerEvent: {}
+[22.017889] (-) TimerEvent: {}
+[22.118487] (-) TimerEvent: {}
+[22.219138] (-) TimerEvent: {}
+[22.319740] (-) TimerEvent: {}
+[22.420372] (-) TimerEvent: {}
+[22.521027] (-) TimerEvent: {}
+[22.621703] (-) TimerEvent: {}
+[22.722272] (-) TimerEvent: {}
+[22.822867] (-) TimerEvent: {}
+[22.923507] (-) TimerEvent: {}
+[23.024092] (-) TimerEvent: {}
+[23.124842] (-) TimerEvent: {}
+[23.225531] (-) TimerEvent: {}
+[23.326153] (-) TimerEvent: {}
+[23.426749] (-) TimerEvent: {}
+[23.527368] (-) TimerEvent: {}
+[23.627975] (-) TimerEvent: {}
+[23.728853] (-) TimerEvent: {}
+[23.829487] (-) TimerEvent: {}
+[23.930135] (-) TimerEvent: {}
+[24.030718] (-) TimerEvent: {}
+[24.131241] (-) TimerEvent: {}
+[24.231746] (-) TimerEvent: {}
+[24.332295] (-) TimerEvent: {}
+[24.432869] (-) TimerEvent: {}
+[24.533466] (-) TimerEvent: {}
+[24.634010] (-) TimerEvent: {}
+[24.734594] (-) TimerEvent: {}
+[24.835190] (-) TimerEvent: {}
+[24.935813] (-) TimerEvent: {}
+[25.036409] (-) TimerEvent: {}
+[25.136963] (-) TimerEvent: {}
+[25.237566] (-) TimerEvent: {}
+[25.338080] (-) TimerEvent: {}
+[25.438714] (-) TimerEvent: {}
+[25.539281] (-) TimerEvent: {}
+[25.639784] (-) TimerEvent: {}
+[25.740268] (-) TimerEvent: {}
+[25.840780] (-) TimerEvent: {}
+[25.941396] (-) TimerEvent: {}
+[26.041920] (-) TimerEvent: {}
+[26.142419] (-) TimerEvent: {}
+[26.242952] (-) TimerEvent: {}
+[26.343490] (-) TimerEvent: {}
+[26.444098] (-) TimerEvent: {}
+[26.544659] (-) TimerEvent: {}
+[26.645267] (-) TimerEvent: {}
+[26.745769] (-) TimerEvent: {}
+[26.846293] (-) TimerEvent: {}
+[26.946883] (-) TimerEvent: {}
+[27.047420] (-) TimerEvent: {}
+[27.147892] (-) TimerEvent: {}
+[27.248406] (-) TimerEvent: {}
+[27.348943] (-) TimerEvent: {}
+[27.449571] (-) TimerEvent: {}
+[27.550050] (-) TimerEvent: {}
+[27.650483] (-) TimerEvent: {}
+[27.751004] (-) TimerEvent: {}
+[27.851595] (-) TimerEvent: {}
+[27.952212] (-) TimerEvent: {}
+[28.052705] (-) TimerEvent: {}
+[28.153221] (-) TimerEvent: {}
+[28.253673] (-) TimerEvent: {}
+[28.354202] (-) TimerEvent: {}
+[28.454784] (-) TimerEvent: {}
+[28.555318] (-) TimerEvent: {}
+[28.655848] (-) TimerEvent: {}
+[28.756331] (-) TimerEvent: {}
+[28.856871] (-) TimerEvent: {}
+[28.957455] (-) TimerEvent: {}
+[29.057983] (-) TimerEvent: {}
+[29.158563] (-) TimerEvent: {}
+[29.259043] (-) TimerEvent: {}
+[29.359527] (-) TimerEvent: {}
+[29.460109] (-) TimerEvent: {}
+[29.560673] (-) TimerEvent: {}
+[29.661260] (-) TimerEvent: {}
+[29.761783] (-) TimerEvent: {}
+[29.862336] (-) TimerEvent: {}
+[29.962881] (-) TimerEvent: {}
+[30.063451] (-) TimerEvent: {}
+[30.163992] (-) TimerEvent: {}
+[30.264543] (-) TimerEvent: {}
+[30.365098] (-) TimerEvent: {}
+[30.465668] (-) TimerEvent: {}
+[30.566199] (-) TimerEvent: {}
+[30.666729] (-) TimerEvent: {}
+[30.767272] (-) TimerEvent: {}
+[30.867759] (-) TimerEvent: {}
+[30.968349] (-) TimerEvent: {}
+[31.068860] (-) TimerEvent: {}
+[31.169376] (-) TimerEvent: {}
+[31.269886] (-) TimerEvent: {}
+[31.370384] (-) TimerEvent: {}
+[31.470929] (-) TimerEvent: {}
+[31.571540] (-) TimerEvent: {}
+[31.672084] (-) TimerEvent: {}
+[31.772643] (-) TimerEvent: {}
+[31.873257] (-) TimerEvent: {}
+[31.973838] (-) TimerEvent: {}
+[32.074463] (-) TimerEvent: {}
+[32.175002] (-) TimerEvent: {}
+[32.275546] (-) TimerEvent: {}
+[32.376120] (-) TimerEvent: {}
+[32.476754] (-) TimerEvent: {}
+[32.577329] (-) TimerEvent: {}
+[32.677850] (-) TimerEvent: {}
+[32.751042] (farmbot_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libfarmbot_gazebo_plugin.so\x1b[0m\n'}
+[32.777977] (-) TimerEvent: {}
+[32.878500] (-) TimerEvent: {}
+[32.979020] (-) TimerEvent: {}
+[33.079596] (-) TimerEvent: {}
+[33.180139] (-) TimerEvent: {}
+[33.280699] (-) TimerEvent: {}
+[33.381278] (-) TimerEvent: {}
+[33.481833] (-) TimerEvent: {}
+[33.582370] (-) TimerEvent: {}
+[33.682971] (-) TimerEvent: {}
+[33.783515] (-) TimerEvent: {}
+[33.884123] (-) TimerEvent: {}
+[33.984681] (-) TimerEvent: {}
+[34.032202] (farmbot_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target farmbot_gazebo_plugin\n'}
+[34.049154] (farmbot_gazebo_plugin) CommandEnded: {'returncode': 0}
+[34.084927] (-) TimerEvent: {}
+[34.086887] (farmbot_gazebo_plugin) JobProgress: {'identifier': 'farmbot_gazebo_plugin', 'progress': 'install'}
+[34.090056] (farmbot_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[34.101893] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.102211] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/libfarmbot_gazebo_plugin.so\n'}
+[34.114505] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/libfarmbot_gazebo_plugin.so" to ""\n'}
+[34.114978] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/farmbot_gazebo_plugin\n'}
+[34.115387] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/farmbot_gazebo_plugin\n'}
+[34.115855] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[34.116196] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[34.116452] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/path.sh\n'}
+[34.116750] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/path.dsv\n'}
+[34.117149] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.bash\n'}
+[34.117451] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.sh\n'}
+[34.117707] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.zsh\n'}
+[34.118027] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.dsv\n'}
+[34.118253] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/package.dsv\n'}
+[34.118377] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/packages/farmbot_gazebo_plugin\n'}
+[34.118494] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/cmake/farmbot_gazebo_pluginConfig.cmake\n'}
+[34.118606] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/cmake/farmbot_gazebo_pluginConfig-version.cmake\n'}
+[34.118770] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/package.xml\n'}
+[34.120914] (farmbot_gazebo_plugin) CommandEnded: {'returncode': 0}
+[34.186269] (-) TimerEvent: {}
+[34.197216] (farmbot_gazebo_plugin) JobEnded: {'identifier': 'farmbot_gazebo_plugin', 'rc': 0}
+[34.199486] (-) EventReactorShutdown: {}

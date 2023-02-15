@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target farmbot_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfarmbot_gazebo_plugin.so[0m
+[100%] Built target farmbot_gazebo_plugin

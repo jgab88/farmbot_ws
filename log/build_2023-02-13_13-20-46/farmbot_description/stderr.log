@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:57 (file):
+  file INSTALL cannot find
+  "/home/jg/farmbot_ws/src/farmbot_description/worlds": No such file or
+  directory.
+
+

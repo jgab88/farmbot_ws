@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.001118] (farmbot_description) JobQueued: {'identifier': 'farmbot_description', 'dependencies': OrderedDict([('farmbot_description', '/home/jg/farmbot_ws/install/farmbot_description')])}
+[0.001491] (farmbot_gazebo_plugin) JobQueued: {'identifier': 'farmbot_gazebo_plugin', 'dependencies': OrderedDict([('farmbot_gazebo_plugin', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin')])}
+[0.002093] (farmbot_description) JobStarted: {'identifier': 'farmbot_description'}
+[0.025254] (farmbot_gazebo_plugin) JobStarted: {'identifier': 'farmbot_gazebo_plugin'}
+[0.091961] (farmbot_gazebo_plugin) JobEnded: {'identifier': 'farmbot_gazebo_plugin', 'rc': 0}
+[0.094311] (farmbot_description) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jg'), ('OLDPWD', '/home/jg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '792'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jg/farmbot_ws/install:/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('JOURNAL_STREAM', '8:32866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-foxy:@/tmp/.ICE-unix/1428,unix/ros2-foxy:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'ff3593b7aabb4ce7be001ed2d24bd230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f1c032e_7122_4a16_8dd9_4f48f07452ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.306'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/farmbot_ws/install/farmbot_description:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jg/farmbot_ws/build/farmbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jg/farmbot_ws/install/farmbot_description:/home/jg/farmbot_ws/install/farmbot_gazebo_plugin:/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller')]), 'shell': False}
+[0.103564] (-) TimerEvent: {}
+[0.112555] (farmbot_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini\n'}
+[0.113117] (farmbot_description) StdoutLine: {'line': b'Parse Config file:/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini\n'}
+[0.113328] (farmbot_description) StdoutLine: {'line': b'   Site: ros2-foxy\n'}
+[0.113458] (farmbot_description) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.114624] (farmbot_description) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.114935] (farmbot_description) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.115093] (farmbot_description) StdoutLine: {'line': b'Create new tag: 20230215-0340 - Experimental\n'}
+[0.115274] (farmbot_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini\n'}
+[0.115454] (farmbot_description) StdoutLine: {'line': b'Parse Config file:/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini\n'}
+[0.115578] (farmbot_description) StdoutLine: {'line': b'Test project /home/jg/farmbot_ws/build/farmbot_description\n'}
+[0.115695] (farmbot_description) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.115812] (farmbot_description) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.115929] (farmbot_description) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.116072] (farmbot_description) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.116266] (farmbot_description) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.116387] (farmbot_description) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.116539] (farmbot_description) StdoutLine: {'line': b'test 1\n'}
+[0.116658] (farmbot_description) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.116789] (farmbot_description) StdoutLine: {'line': b'\n'}
+[0.116907] (farmbot_description) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml"\n'}
+[0.117033] (farmbot_description) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.203499] (farmbot_description) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[0.203942] (-) TimerEvent: {}
+[0.204214] (farmbot_description) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml\n'}
+[0.304124] (-) TimerEvent: {}
+[0.404688] (-) TimerEvent: {}
+[0.505221] (-) TimerEvent: {}
+[0.531722] (farmbot_description) StdoutLine: {'line': b'1: launch/display.launch.py: could not find copyright notice\n'}
+[0.532162] (farmbot_description) StdoutLine: {'line': b'1: launch/gazebo.launch.py: could not find copyright notice\n'}
+[0.532308] (farmbot_description) StdoutLine: {'line': b'1: launch/spawn_car.launch.py: could not find copyright notice\n'}
+[0.532464] (farmbot_description) StdoutLine: {'line': b'1: scripts/spawn_bot.py: could not find copyright notice\n'}
+[0.532599] (farmbot_description) StdoutLine: {'line': b'1: setup_archived.py: could not find copyright notice\n'}
+[0.532720] (farmbot_description) StdoutLine: {'line': b'1: src/farmbot_description_node.cpp: could not find copyright notice\n'}
+[0.532883] (farmbot_description) StdoutLine: {'line': b'1: 6 errors, checked 10 files\n'}
+[0.550270] (farmbot_description) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.550764] (farmbot_description) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml'\n"}
+[0.564984] (farmbot_description) StdoutLine: {'line': b'1/8 Test #1: copyright ........................***Failed    0.45 sec\n'}
+[0.565613] (farmbot_description) StdoutLine: {'line': b'test 2\n'}
+[0.565856] (farmbot_description) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.565986] (farmbot_description) StdoutLine: {'line': b'\n'}
+[0.566109] (farmbot_description) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml" "--include_dirs" "/home/jg/farmbot_ws/src/farmbot_description/include"\n'}
+[0.566237] (farmbot_description) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.605275] (-) TimerEvent: {}
+[0.649790] (farmbot_description) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[0.650226] (farmbot_description) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml --include_dirs /home/jg/farmbot_ws/src/farmbot_description/include\n'}
+[0.705400] (-) TimerEvent: {}
+[0.805840] (-) TimerEvent: {}
+[0.906312] (-) TimerEvent: {}
+[0.986505] (farmbot_description) StdoutLine: {'line': b'2: No problems found\n'}
+[1.006440] (-) TimerEvent: {}
+[1.007041] (farmbot_description) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.007519] (farmbot_description) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml'\n"}
+[1.021599] (farmbot_description) StdoutLine: {'line': b'2/8 Test #2: cppcheck .........................   Passed    0.46 sec\n'}
+[1.022133] (farmbot_description) StdoutLine: {'line': b'test 3\n'}
+[1.022274] (farmbot_description) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[1.022401] (farmbot_description) StdoutLine: {'line': b'\n'}
+[1.022522] (farmbot_description) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml"\n'}
+[1.022659] (farmbot_description) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[1.106602] (-) TimerEvent: {}
+[1.108056] (farmbot_description) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[1.108474] (farmbot_description) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml\n'}
+[1.206800] (-) TimerEvent: {}
+[1.307298] (-) TimerEvent: {}
+[1.407813] (-) TimerEvent: {}
+[1.438028] (farmbot_description) StdoutLine: {'line': b'3: /home/jg/farmbot_ws/src/farmbot_description/src/farmbot_description_node.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.438600] (farmbot_description) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 1\n"}
+[1.438776] (farmbot_description) StdoutLine: {'line': b'3: Total errors found: 1\n'}
+[1.438917] (farmbot_description) StdoutLine: {'line': b"3: Using '--root=/home/jg/farmbot_ws/src/farmbot_description/src' argument\n"}
+[1.439038] (farmbot_description) StdoutLine: {'line': b'3: \n'}
+[1.439154] (farmbot_description) StdoutLine: {'line': b'3: Done processing /home/jg/farmbot_ws/src/farmbot_description/src/farmbot_description_node.cpp\n'}
+[1.439380] (farmbot_description) StdoutLine: {'line': b'3: \n'}
+[1.455522] (farmbot_description) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[1.455970] (farmbot_description) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml'\n"}
+[1.469190] (farmbot_description) StdoutLine: {'line': b'3/8 Test #3: cpplint ..........................***Failed    0.45 sec\n'}
+[1.469689] (farmbot_description) StdoutLine: {'line': b'test 4\n'}
+[1.469916] (farmbot_description) StdoutLine: {'line': b'    Start 4: flake8\n'}
+[1.470042] (farmbot_description) StdoutLine: {'line': b'\n'}
+[1.470161] (farmbot_description) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml"\n'}
+[1.470288] (farmbot_description) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.507936] (-) TimerEvent: {}
+[1.556008] (farmbot_description) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[1.556429] (farmbot_description) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml\n'}
+[1.608071] (-) TimerEvent: {}
+[1.708597] (-) TimerEvent: {}
+[1.809053] (-) TimerEvent: {}
+[1.909560] (-) TimerEvent: {}
+[2.010070] (-) TimerEvent: {}
+[2.110565] (-) TimerEvent: {}
+[2.135545] (farmbot_description) StdoutLine: {'line': b'4: Traceback (most recent call last):\n'}
+[2.136004] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 158, in load_plugin\n'}
+[2.136150] (farmbot_description) StdoutLine: {'line': b'4:     self._load()\n'}
+[2.136277] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 135, in _load\n'}
+[2.136402] (farmbot_description) StdoutLine: {'line': b'4:     self._plugin = self.entry_point.load()\n'}
+[2.136582] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/entrypoints.py", line 83, in load\n'}
+[2.136702] (farmbot_description) StdoutLine: {'line': b'4:     obj = getattr(obj, attr)\n'}
+[2.136877] (farmbot_description) StdoutLine: {'line': b"4: AttributeError: module 'pycodestyle' has no attribute 'missing_whitespace_after_import_keyword'\n"}
+[2.136997] (farmbot_description) StdoutLine: {'line': b'4: \n'}
+[2.137113] (farmbot_description) StdoutLine: {'line': b'4: During handling of the above exception, another exception occurred:\n'}
+[2.137228] (farmbot_description) StdoutLine: {'line': b'4: \n'}
+[2.137504] (farmbot_description) StdoutLine: {'line': b'4: Traceback (most recent call last):\n'}
+[2.137664] (farmbot_description) StdoutLine: {'line': b'4:   File "/opt/ros/foxy/bin/ament_flake8", line 11, in <module>\n'}
+[2.137848] (farmbot_description) StdoutLine: {'line': b"4:     load_entry_point('ament-flake8==0.9.7', 'console_scripts', 'ament_flake8')()\n"}
+[2.137970] (farmbot_description) StdoutLine: {'line': b'4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 32, in main\n'}
+[2.138086] (farmbot_description) StdoutLine: {'line': b'4:     rc, _ = main_with_errors(argv=argv)\n'}
+[2.138199] (farmbot_description) StdoutLine: {'line': b'4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 86, in main_with_errors\n'}
+[2.138328] (farmbot_description) StdoutLine: {'line': b'4:     report = generate_flake8_report(\n'}
+[2.138446] (farmbot_description) StdoutLine: {'line': b'4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 189, in generate_flake8_report\n'}
+[2.138562] (farmbot_description) StdoutLine: {'line': b'4:     style = get_flake8_style_guide(flake8_argv)\n'}
+[2.138675] (farmbot_description) StdoutLine: {'line': b'4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 161, in get_flake8_style_guide\n'}
+[2.138838] (farmbot_description) StdoutLine: {'line': b'4:     application.find_plugins()\n'}
+[2.138996] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/main/application.py", line 199, in find_plugins\n'}
+[2.139117] (farmbot_description) StdoutLine: {'line': b'4:     self.check_plugins.load_plugins()\n'}
+[2.139230] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 410, in load_plugins\n'}
+[2.139343] (farmbot_description) StdoutLine: {'line': b'4:     plugins = list(self.manager.map(load_plugin))\n'}
+[2.139455] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 297, in map\n'}
+[2.139568] (farmbot_description) StdoutLine: {'line': b'4:     yield func(self.plugins[name], *args, **kwargs)\n'}
+[2.139682] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 408, in load_plugin\n'}
+[2.139846] (farmbot_description) StdoutLine: {'line': b'4:     return plugin.load_plugin()\n'}
+[2.139964] (farmbot_description) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 165, in load_plugin\n'}
+[2.140088] (farmbot_description) StdoutLine: {'line': b'4:     raise failed_to_load\n'}
+[2.140202] (farmbot_description) StdoutLine: {'line': b'4: flake8.exceptions.FailedToLoadPlugin: Flake8 failed to load plugin "pycodestyle.missing_whitespace_after_import_keyword" due to module \'pycodestyle\' has no attribute \'missing_whitespace_after_import_keyword\'.\n'}
+[2.190283] (farmbot_description) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[2.190753] (farmbot_description) StdoutLine: {'line': b"4: -- run_test.py: generate result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml' with failed test\n"}
+[2.191249] (farmbot_description) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml'\n"}
+[2.204634] (farmbot_description) StdoutLine: {'line': b'4/8 Test #4: flake8 ...........................***Failed    0.73 sec\n'}
+[2.205063] (farmbot_description) StdoutLine: {'line': b'test 5\n'}
+[2.205206] (farmbot_description) StdoutLine: {'line': b'    Start 5: lint_cmake\n'}
+[2.205332] (farmbot_description) StdoutLine: {'line': b'\n'}
+[2.205456] (farmbot_description) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml"\n'}
+[2.205588] (farmbot_description) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[2.210692] (-) TimerEvent: {}
+[2.286410] (farmbot_description) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[2.286808] (farmbot_description) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml\n'}
+[2.310831] (-) TimerEvent: {}
+[2.411270] (-) TimerEvent: {}
+[2.511862] (-) TimerEvent: {}
+[2.575661] (farmbot_description) StdoutLine: {'line': b'5: \n'}
+[2.576114] (farmbot_description) StdoutLine: {'line': b'5: No problems found\n'}
+[2.593057] (farmbot_description) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[2.593452] (farmbot_description) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml'\n"}
+[2.607949] (farmbot_description) StdoutLine: {'line': b'5/8 Test #5: lint_cmake .......................   Passed    0.40 sec\n'}
+[2.608325] (farmbot_description) StdoutLine: {'line': b'test 6\n'}
+[2.608490] (farmbot_description) StdoutLine: {'line': b'    Start 6: pep257\n'}
+[2.608620] (farmbot_description) StdoutLine: {'line': b'\n'}
+[2.608741] (farmbot_description) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml"\n'}
+[2.608916] (farmbot_description) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[2.611945] (-) TimerEvent: {}
+[2.695157] (farmbot_description) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[2.695640] (farmbot_description) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml\n'}
+[2.712082] (-) TimerEvent: {}
+[2.812547] (-) TimerEvent: {}
+[2.913124] (-) TimerEvent: {}
+[3.013645] (-) TimerEvent: {}
+[3.090374] (farmbot_description) StdoutLine: {'line': b'6: checking ./farmbot_description/__init__.py\n'}
+[3.090828] (farmbot_description) StdoutLine: {'line': b'6: checking ./launch/display.launch.py\n'}
+[3.090976] (farmbot_description) StdoutLine: {'line': b'6: checking ./launch/gazebo.launch.py\n'}
+[3.091101] (farmbot_description) StdoutLine: {'line': b'6: checking ./launch/spawn_car.launch.py\n'}
+[3.091219] (farmbot_description) StdoutLine: {'line': b'6: checking ./scripts/spawn_bot.py\n'}
+[3.091349] (farmbot_description) StdoutLine: {'line': b'6: checking ./setup_archived.py\n'}
+[3.091467] (farmbot_description) StdoutLine: {'line': b'6: checking ./test/test_copyright.py\n'}
+[3.091581] (farmbot_description) StdoutLine: {'line': b'6: checking ./test/test_flake8.py\n'}
+[3.091695] (farmbot_description) StdoutLine: {'line': b'6: checking ./test/test_pep257.py\n'}
+[3.091851] (farmbot_description) StdoutLine: {'line': b'6: No problems found\n'}
+[3.113813] (-) TimerEvent: {}
+[3.114454] (farmbot_description) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[3.114932] (farmbot_description) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml'\n"}
+[3.128986] (farmbot_description) StdoutLine: {'line': b'6/8 Test #6: pep257 ...........................   Passed    0.52 sec\n'}
+[3.129463] (farmbot_description) StdoutLine: {'line': b'test 7\n'}
+[3.129605] (farmbot_description) StdoutLine: {'line': b'    Start 7: uncrustify\n'}
+[3.129731] (farmbot_description) StdoutLine: {'line': b'\n'}
+[3.129906] (farmbot_description) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml"\n'}
+[3.130041] (farmbot_description) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[3.213959] (-) TimerEvent: {}
+[3.214705] (farmbot_description) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[3.215136] (farmbot_description) StdoutLine: {'line': b'7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml\n'}
+[3.314098] (-) TimerEvent: {}
+[3.414578] (-) TimerEvent: {}
+[3.515134] (-) TimerEvent: {}
+[3.516722] (farmbot_description) StdoutLine: {'line': b"7: No code style divergence in file 'src/farmbot_description_node.cpp'\n"}
+[3.517110] (farmbot_description) StdoutLine: {'line': b'7: \n'}
+[3.517254] (farmbot_description) StdoutLine: {'line': b'7: No problems found\n'}
+[3.538621] (farmbot_description) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[3.539001] (farmbot_description) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml'\n"}
+[3.552817] (farmbot_description) StdoutLine: {'line': b'7/8 Test #7: uncrustify .......................   Passed    0.42 sec\n'}
+[3.553256] (farmbot_description) StdoutLine: {'line': b'test 8\n'}
+[3.553477] (farmbot_description) StdoutLine: {'line': b'    Start 8: xmllint\n'}
+[3.553604] (farmbot_description) StdoutLine: {'line': b'\n'}
+[3.553724] (farmbot_description) StdoutLine: {'line': b'8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml"\n'}
+[3.553888] (farmbot_description) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[3.615279] (-) TimerEvent: {}
+[3.639413] (farmbot_description) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':\n"}
+[3.639869] (farmbot_description) StdoutLine: {'line': b'8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml\n'}
+[3.715420] (-) TimerEvent: {}
+[3.815952] (-) TimerEvent: {}
+[3.916474] (-) TimerEvent: {}
+[4.017001] (-) TimerEvent: {}
+[4.117604] (-) TimerEvent: {}
+[4.218142] (-) TimerEvent: {}
+[4.252107] (farmbot_description) StdoutLine: {'line': b"8: File 'package.xml' is valid\n"}
+[4.252616] (farmbot_description) StdoutLine: {'line': b'8: \n'}
+[4.252756] (farmbot_description) StdoutLine: {'line': b'8: No problems found\n'}
+[4.272380] (farmbot_description) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[4.272898] (farmbot_description) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml'\n"}
+[4.286827] (farmbot_description) StdoutLine: {'line': b'8/8 Test #8: xmllint ..........................   Passed    0.73 sec\n'}
+[4.287884] (farmbot_description) StdoutLine: {'line': b'\n'}
+[4.288661] (farmbot_description) StdoutLine: {'line': b'63% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 8\n'}
+[4.288844] (farmbot_description) StdoutLine: {'line': b'\n'}
+[4.288981] (farmbot_description) StdoutLine: {'line': b'Label Time Summary:\n'}
+[4.289105] (farmbot_description) StdoutLine: {'line': b'copyright     =   0.45 sec*proc (1 test)\n'}
+[4.289227] (farmbot_description) StdoutLine: {'line': b'cppcheck      =   0.46 sec*proc (1 test)\n'}
+[4.289348] (farmbot_description) StdoutLine: {'line': b'cpplint       =   0.45 sec*proc (1 test)\n'}
+[4.289468] (farmbot_description) StdoutLine: {'line': b'flake8        =   0.73 sec*proc (1 test)\n'}
+[4.289587] (farmbot_description) StdoutLine: {'line': b'lint_cmake    =   0.40 sec*proc (1 test)\n'}
+[4.289704] (farmbot_description) StdoutLine: {'line': b'linter        =   4.17 sec*proc (8 tests)\n'}
+[4.289869] (farmbot_description) StdoutLine: {'line': b'pep257        =   0.52 sec*proc (1 test)\n'}
+[4.289994] (farmbot_description) StdoutLine: {'line': b'uncrustify    =   0.42 sec*proc (1 test)\n'}
+[4.290116] (farmbot_description) StdoutLine: {'line': b'xmllint       =   0.73 sec*proc (1 test)\n'}
+[4.290235] (farmbot_description) StdoutLine: {'line': b'\n'}
+[4.290354] (farmbot_description) StdoutLine: {'line': b'Total Test time (real) =   4.17 sec\n'}
+[4.290473] (farmbot_description) StdoutLine: {'line': b'\n'}
+[4.290591] (farmbot_description) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[4.290709] (farmbot_description) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[4.290863] (farmbot_description) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[4.290987] (farmbot_description) StdoutLine: {'line': b'\t\x1b[0;31m  4 - flake8 (Failed)\x1b[0;0m\n'}
+[4.310970] (farmbot_description) StderrLine: {'line': b'Errors while running CTest\n'}
+[4.314672] (farmbot_description) CommandEnded: {'returncode': 8}
+[4.315965] (farmbot_description) TestFailure: {'identifier': 'farmbot_description'}
+[4.316223] (farmbot_description) JobEnded: {'identifier': 'farmbot_description', 'rc': 0}
+[4.317719] (-) EventReactorShutdown: {}

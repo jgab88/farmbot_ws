@@ -1,0 +1,4 @@
+Invoking command in '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jg/farmbot_ws/src/farmbot_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_gazebo_plugin
+Invoked command in '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jg/farmbot_ws/src/farmbot_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_gazebo_plugin
+Invoking command in '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jg/farmbot_ws/build/farmbot_gazebo_plugin -- -j10 -l10
+Invoked command in '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jg/farmbot_ws/build/farmbot_gazebo_plugin -- -j10 -l10

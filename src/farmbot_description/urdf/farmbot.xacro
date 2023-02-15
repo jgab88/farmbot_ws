@@ -7,7 +7,7 @@
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control.xacro" />  # Diff drive Controller  -->
 <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_skid.xacro" />  <!-- Skid Steer Controller-->
 
-<link name="base_link">
+<link name="base_link"> <!-- rear chassis  -->
   <inertial>
     <origin xyz="0.14705284891472079 0.005827858553437189 3.5052699745628e-07" rpy="0 0 0"/>
     <mass value="8.113454311504578"/>
@@ -28,7 +28,7 @@
   </collision>
 </link>
 
-<link name="component__1__1">
+<link name="component__1__1"> <!-- steering chassis -->
   <inertial>
     <origin xyz="-0.09236420727033787 0.00021362177608096554 -4.877897432420397e-07" rpy="0 0 0"/>
     <mass value="5.8958658025807615"/>
@@ -49,7 +49,7 @@
   </collision>
 </link>
 
-<link name="component__2__1">
+<link name="component__2__1"> <!-- front right wheel -->
   <inertial>
     <origin xyz="-3.7769361846407e-07 -3.5857001496231076e-07 -0.0059616689033889225" rpy="0 0 0"/>
     <mass value="20.82503572060766"/>
@@ -70,7 +70,7 @@
   </collision>
 </link>
 
-<link name="component__2__2">
+<link name="component__2__2"> <!-- front left wheel -->
   <inertial>
     <origin xyz="-3.7769361846407e-07 -3.5857001489125644e-07 0.005961691828770682" rpy="0 0 0"/>
     <mass value="20.82503572060766"/>
@@ -91,7 +91,7 @@
   </collision>
 </link>
 
-<link name="component__2__3">
+<link name="component__2__3"> <!-- rear right wheel -->
   <inertial>
     <origin xyz="3.7769361843631444e-07 -3.5857001496231076e-07 -0.005961668903388867" rpy="0 0 0"/>
     <mass value="20.82503572060766"/>
@@ -112,7 +112,7 @@
   </collision>
 </link>
 
-<link name="component__2__4">
+<link name="component__2__4"> <!-- rear left wheel -->
   <inertial>
     <origin xyz="3.7769361843631444e-07 -3.5857001489125644e-07 0.005961691828770765" rpy="0 0 0"/>
     <mass value="20.82503572060766"/>
@@ -133,35 +133,37 @@
   </collision>
 </link>
 
-<joint name="Revolute 1" type="fixed">
+<!-- Joint Definitions ## replace 'Revolute' to match farmbot_gazebo_plugin joint naming convention @ 2.13.23-->
+
+<joint name="front_steer_right_joint" type="fixed">
   <origin xyz="-0.0625 0.0 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__1__1"/>
   <axis xyz="0.0 0.0 -0.5"/>
 </joint>
 
-<joint name="Revolute 2" type="continuous">
+<joint name="front_right_wheel_joint" type="continuous">
   <origin xyz="0.161565 0.166785 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__2__1"/>
   <axis xyz="-0.0 1.0 0.0"/>
 </joint>
 
-<joint name="Revolute 3" type="continuous">
+<joint name="front_left_wheel_joint" type="continuous">
   <origin xyz="0.161565 -0.166784 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__2__2"/>
   <axis xyz="-0.0 1.0 -0.0"/>
 </joint>
 
-<joint name="Revolute 4" type="continuous">
+<joint name="rear_right_wheel_joint" type="continuous">
   <origin xyz="-0.161565 0.166785 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__2__3"/>
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
-<joint name="Revolute 5" type="continuous">
+<joint name="rear_left_wheel_joint" type="continuous">
   <origin xyz="-0.161565 -0.166784 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__2__4"/>

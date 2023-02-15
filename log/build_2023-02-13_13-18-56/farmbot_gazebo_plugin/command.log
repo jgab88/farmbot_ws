@@ -1,0 +1,1 @@
+Invoking command in '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jg/farmbot_ws/build/farmbot_gazebo_plugin -- -j10 -l10

@@ -27,7 +27,7 @@
 
   
 </gazebo>
-<gazebo reference="base_link">
+<gazebo reference="base_link"> <!-- Rear Chassis -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
@@ -35,35 +35,35 @@
   <gravity>true</gravity>
 </gazebo>
 
-<gazebo reference="component__1__1">
+<gazebo reference="component__1__1"> <!-- Steering chassis -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="component__2__1">
+<gazebo reference="component__2__1"> <!-- front right wheel -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="component__2__2">
+<gazebo reference="component__2__2"> <!-- front left wheel -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="component__2__3">
+<gazebo reference="component__2__3"> <!-- rear right wheel -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="component__2__4">
+<gazebo reference="component__2__4"> <!-- rear left wheel -->
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>

@@ -1,0 +1,767 @@
+[0.000000] (-) TimerEvent: {}
+[0.001105] (farmbot_description) JobQueued: {'identifier': 'farmbot_description', 'dependencies': OrderedDict()}
+[0.001618] (farmbot_gazebo_plugin) JobQueued: {'identifier': 'farmbot_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.002224] (farmbot_description) JobStarted: {'identifier': 'farmbot_description'}
+[0.033659] (farmbot_gazebo_plugin) JobStarted: {'identifier': 'farmbot_gazebo_plugin'}
+[0.100077] (-) TimerEvent: {}
+[0.201375] (-) TimerEvent: {}
+[0.302090] (-) TimerEvent: {}
+[0.402709] (-) TimerEvent: {}
+[0.451399] (farmbot_gazebo_plugin) JobProgress: {'identifier': 'farmbot_gazebo_plugin', 'progress': 'cmake'}
+[0.451837] (farmbot_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/jg/farmbot_ws/src/farmbot_gazebo_plugin', '-DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_gazebo_plugin'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', 'env': OrderedDict([('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_CLIENT', '192.168.1.170 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jg'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e83ceb42-2a80-48b8-b262-3345d6f53930.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('COLCON_PREFIX_PATH', '/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/jg/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54e1796dcb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.170 55914 192.168.1.213 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[0.502907] (-) TimerEvent: {}
+[0.603680] (-) TimerEvent: {}
+[0.650800] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.704256] (-) TimerEvent: {}
+[0.793342] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.804400] (-) TimerEvent: {}
+[0.809083] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.904950] (-) TimerEvent: {}
+[0.943970] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.944590] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.005936] (-) TimerEvent: {}
+[1.089211] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.102642] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.103584] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.106075] (-) TimerEvent: {}
+[1.109053] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.206301] (-) TimerEvent: {}
+[1.233184] (farmbot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jg/farmbot_ws/build/farmbot_description/build'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_description', 'env': {'LINOROBOT2_BASE': '4wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jg', 'SSH_CLIENT': '192.168.1.170 55914 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jg', 'TERM_PROGRAM_VERSION': '1.75.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e83ceb42-2a80-48b8-b262-3345d6f53930.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/jg/ros2_install', 'COLCON_PREFIX_PATH': '/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/jg/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-54e1796dcb.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jg/farmbot_ws/build/farmbot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.170 55914 192.168.1.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller'}, 'shell': False}
+[1.257135] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.258245] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.308954] (-) TimerEvent: {}
+[1.397662] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.409066] (-) TimerEvent: {}
+[1.414700] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.415446] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.436064] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.442160] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.482307] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.509259] (-) TimerEvent: {}
+[1.609787] (-) TimerEvent: {}
+[1.614724] (farmbot_description) StdoutLine: {'line': b'running develop\n'}
+[1.701779] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.709893] (-) TimerEvent: {}
+[1.805912] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.810050] (-) TimerEvent: {}
+[1.864460] (farmbot_description) StdoutLine: {'line': b'Removing /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)\n'}
+[1.904746] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.908368] (farmbot_description) CommandEnded: {'returncode': 0}
+[1.913152] (-) TimerEvent: {}
+[1.913893] (farmbot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/farmbot_description', 'build', '--build-base', '/home/jg/farmbot_ws/build/farmbot_description/build', 'install', '--record', '/home/jg/farmbot_ws/build/farmbot_description/install.log', '--install-scripts', '$base/lib/farmbot_description', '--single-version-externally-managed'], 'cwd': '/home/jg/farmbot_ws/src/farmbot_description', 'env': {'LINOROBOT2_BASE': '4wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jg', 'SSH_CLIENT': '192.168.1.170 55914 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jg', 'TERM_PROGRAM_VERSION': '1.75.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e83ceb42-2a80-48b8-b262-3345d6f53930.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/jg/ros2_install', 'COLCON_PREFIX_PATH': '/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/jg/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-54e1796dcb.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jg/farmbot_ws/build/farmbot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.170 55914 192.168.1.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller'}, 'shell': False}
+[1.974592] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.013325] (-) TimerEvent: {}
+[2.114920] (-) TimerEvent: {}
+[2.218190] (-) TimerEvent: {}
+[2.277464] (farmbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.277846] (farmbot_description) StdoutLine: {'line': b'writing ../../build/farmbot_description/farmbot_description.egg-info/PKG-INFO\n'}
+[2.278002] (farmbot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/farmbot_description/farmbot_description.egg-info/dependency_links.txt\n'}
+[2.278203] (farmbot_description) StdoutLine: {'line': b'writing entry points to ../../build/farmbot_description/farmbot_description.egg-info/entry_points.txt\n'}
+[2.278364] (farmbot_description) StdoutLine: {'line': b'writing requirements to ../../build/farmbot_description/farmbot_description.egg-info/requires.txt\n'}
+[2.282094] (farmbot_description) StdoutLine: {'line': b'writing top-level names to ../../build/farmbot_description/farmbot_description.egg-info/top_level.txt\n'}
+[2.318342] (-) TimerEvent: {}
+[2.335322] (farmbot_description) StdoutLine: {'line': b"reading manifest file '../../build/farmbot_description/farmbot_description.egg-info/SOURCES.txt'\n"}
+[2.342300] (farmbot_description) StdoutLine: {'line': b"writing manifest file '../../build/farmbot_description/farmbot_description.egg-info/SOURCES.txt'\n"}
+[2.344028] (farmbot_description) StdoutLine: {'line': b'running build\n'}
+[2.344307] (farmbot_description) StdoutLine: {'line': b'running build_py\n'}
+[2.345034] (farmbot_description) StdoutLine: {'line': b'running install\n'}
+[2.346048] (farmbot_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.347517] (farmbot_description) StdoutLine: {'line': b'creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description\n'}
+[2.348693] (farmbot_description) StdoutLine: {'line': b'copying /home/jg/farmbot_ws/build/farmbot_description/build/lib/farmbot_description/__init__.py -> /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description\n'}
+[2.349158] (farmbot_description) StdoutLine: {'line': b'byte-compiling /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description/__init__.py to __init__.cpython-38.pyc\n'}
+[2.350979] (farmbot_description) StdoutLine: {'line': b'running install_data\n'}
+[2.352241] (farmbot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.354794] (farmbot_description) StdoutLine: {'line': b'Copying ../../build/farmbot_description/farmbot_description.egg-info to /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description-0.0.0-py3.8.egg-info\n'}
+[2.356984] (farmbot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.386191] (farmbot_description) StdoutLine: {'line': b"writing list of installed files to '/home/jg/farmbot_ws/build/farmbot_description/install.log'\n"}
+[2.418501] (-) TimerEvent: {}
+[2.422952] (farmbot_description) CommandEnded: {'returncode': 0}
+[2.455512] (farmbot_description) JobEnded: {'identifier': 'farmbot_description', 'rc': 0}
+[2.518651] (-) TimerEvent: {}
+[2.558050] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.607277] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.618836] (-) TimerEvent: {}
+[2.619498] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.635611] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.641446] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.642243] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.649999] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.675708] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.718991] (-) TimerEvent: {}
+[2.737182] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.757661] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.773567] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.787062] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.787483] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.798194] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.798732] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.810218] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.810793] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.819138] (-) TimerEvent: {}
+[2.822250] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.822669] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.833364] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.833888] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.844472] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.919288] (-) TimerEvent: {}
+[3.019874] (-) TimerEvent: {}
+[3.092244] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.097435] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[3.098667] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.120025] (-) TimerEvent: {}
+[3.125906] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[3.143387] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.151155] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.177558] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.220201] (-) TimerEvent: {}
+[3.239914] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.250063] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.274711] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.320369] (-) TimerEvent: {}
+[3.333820] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.338803] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.339663] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.369207] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.377877] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.402654] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.420526] (-) TimerEvent: {}
+[3.465400] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.470637] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.471443] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.472490] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.475379] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.477801] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.494643] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.498881] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[3.499821] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.500419] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.506799] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[3.507553] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.520703] (-) TimerEvent: {}
+[3.621294] (-) TimerEvent: {}
+[3.628720] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.643869] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.672873] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.721476] (-) TimerEvent: {}
+[3.730976] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.743356] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.768002] (farmbot_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.821649] (-) TimerEvent: {}
+[3.825738] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.826436] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.826984] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.827666] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.834325] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[3.884889] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.885458] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.921812] (-) TimerEvent: {}
+[4.022430] (-) TimerEvent: {}
+[4.123122] (-) TimerEvent: {}
+[4.224058] (-) TimerEvent: {}
+[4.325433] (-) TimerEvent: {}
+[4.426144] (-) TimerEvent: {}
+[4.527126] (-) TimerEvent: {}
+[4.628011] (-) TimerEvent: {}
+[4.649286] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.674917] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.728219] (-) TimerEvent: {}
+[4.828965] (-) TimerEvent: {}
+[4.884242] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.929135] (-) TimerEvent: {}
+[4.955077] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.029337] (-) TimerEvent: {}
+[5.130227] (-) TimerEvent: {}
+[5.198842] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.230530] (-) TimerEvent: {}
+[5.331185] (-) TimerEvent: {}
+[5.389085] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.396342] (farmbot_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.400866] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.431382] (-) TimerEvent: {}
+[5.531921] (-) TimerEvent: {}
+[5.632651] (-) TimerEvent: {}
+[5.733465] (-) TimerEvent: {}
+[5.834161] (-) TimerEvent: {}
+[5.843530] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[5.862392] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[5.866516] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.934432] (-) TimerEvent: {}
+[6.040940] (-) TimerEvent: {}
+[6.141765] (-) TimerEvent: {}
+[6.148794] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[6.241991] (-) TimerEvent: {}
+[6.247655] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[6.290927] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[6.342198] (-) TimerEvent: {}
+[6.442969] (-) TimerEvent: {}
+[6.543880] (-) TimerEvent: {}
+[6.644561] (-) TimerEvent: {}
+[6.745408] (-) TimerEvent: {}
+[6.847288] (-) TimerEvent: {}
+[6.947998] (-) TimerEvent: {}
+[7.048707] (-) TimerEvent: {}
+[7.149345] (-) TimerEvent: {}
+[7.250469] (-) TimerEvent: {}
+[7.322286] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.350631] (-) TimerEvent: {}
+[7.451387] (-) TimerEvent: {}
+[7.464168] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.551607] (-) TimerEvent: {}
+[7.564154] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[7.569872] (farmbot_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/jg/farmbot_ws/build/farmbot_gazebo_plugin\n'}
+[7.606559] (farmbot_gazebo_plugin) CommandEnded: {'returncode': 0}
+[7.608946] (farmbot_gazebo_plugin) JobProgress: {'identifier': 'farmbot_gazebo_plugin', 'progress': 'build'}
+[7.611305] (farmbot_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', '--', '-j10', '-l10'], 'cwd': '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin', 'env': OrderedDict([('LINOROBOT2_BASE', '4wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jg'), ('SSH_CLIENT', '192.168.1.170 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jg/car_ws/install/autocar_msgs/lib:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jg'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e83ceb42-2a80-48b8-b262-3345d6f53930.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jg/ros2_install'), ('COLCON_PREFIX_PATH', '/home/jg/car_ws/install:/home/jg/neor_mini/mini_sim20_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jg/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/jg/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54e1796dcb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jg/farmbot_ws/build/farmbot_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.170 55914 192.168.1.213 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jg/car_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jg/car_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jg/car_ws/install/launches:/home/jg/car_ws/install/autocar_nav:/home/jg/car_ws/install/autocar_msgs:/home/jg/car_ws/install/autocar_map:/home/jg/car_ws/install/autocar_gazebo:/home/jg/car_ws/install/autocar_description:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_gazebo_plugin:/home/jg/neor_mini/mini_sim20_ws/install/neor_mini_foxy:/home/jg/neor_mini/mini_sim20_ws/install/ackermann_steering_controller:/opt/ros/foxy')]), 'shell': False}
+[7.651875] (-) TimerEvent: {}
+[7.735554] (farmbot_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target farmbot_gazebo_plugin\x1b[0m\n'}
+[7.752049] (-) TimerEvent: {}
+[7.852671] (-) TimerEvent: {}
+[7.956965] (-) TimerEvent: {}
+[7.979338] (farmbot_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o\x1b[0m\n'}
+[8.057139] (-) TimerEvent: {}
+[8.157748] (-) TimerEvent: {}
+[8.258322] (-) TimerEvent: {}
+[8.359180] (-) TimerEvent: {}
+[8.462758] (-) TimerEvent: {}
+[8.563605] (-) TimerEvent: {}
+[8.664725] (-) TimerEvent: {}
+[8.769982] (-) TimerEvent: {}
+[8.870612] (-) TimerEvent: {}
+[8.972991] (-) TimerEvent: {}
+[9.074275] (-) TimerEvent: {}
+[9.175081] (-) TimerEvent: {}
+[9.275909] (-) TimerEvent: {}
+[9.376645] (-) TimerEvent: {}
+[9.477322] (-) TimerEvent: {}
+[9.578025] (-) TimerEvent: {}
+[9.678675] (-) TimerEvent: {}
+[9.779472] (-) TimerEvent: {}
+[9.880263] (-) TimerEvent: {}
+[9.981702] (-) TimerEvent: {}
+[10.084966] (-) TimerEvent: {}
+[10.185577] (-) TimerEvent: {}
+[10.286413] (-) TimerEvent: {}
+[10.386966] (-) TimerEvent: {}
+[10.487600] (-) TimerEvent: {}
+[10.588245] (-) TimerEvent: {}
+[10.688808] (-) TimerEvent: {}
+[10.789388] (-) TimerEvent: {}
+[10.890065] (-) TimerEvent: {}
+[10.990728] (-) TimerEvent: {}
+[11.091403] (-) TimerEvent: {}
+[11.192057] (-) TimerEvent: {}
+[11.292597] (-) TimerEvent: {}
+[11.393169] (-) TimerEvent: {}
+[11.493748] (-) TimerEvent: {}
+[11.594404] (-) TimerEvent: {}
+[11.695102] (-) TimerEvent: {}
+[11.795805] (-) TimerEvent: {}
+[11.896437] (-) TimerEvent: {}
+[11.997104] (-) TimerEvent: {}
+[12.097691] (-) TimerEvent: {}
+[12.199184] (-) TimerEvent: {}
+[12.299879] (-) TimerEvent: {}
+[12.400553] (-) TimerEvent: {}
+[12.501224] (-) TimerEvent: {}
+[12.601745] (-) TimerEvent: {}
+[12.702307] (-) TimerEvent: {}
+[12.802887] (-) TimerEvent: {}
+[12.903542] (-) TimerEvent: {}
+[13.004320] (-) TimerEvent: {}
+[13.104945] (-) TimerEvent: {}
+[13.205579] (-) TimerEvent: {}
+[13.306239] (-) TimerEvent: {}
+[13.406777] (-) TimerEvent: {}
+[13.507317] (-) TimerEvent: {}
+[13.608042] (-) TimerEvent: {}
+[13.708737] (-) TimerEvent: {}
+[13.809479] (-) TimerEvent: {}
+[13.910138] (-) TimerEvent: {}
+[14.010674] (-) TimerEvent: {}
+[14.111259] (-) TimerEvent: {}
+[14.211896] (-) TimerEvent: {}
+[14.312559] (-) TimerEvent: {}
+[14.413291] (-) TimerEvent: {}
+[14.513784] (-) TimerEvent: {}
+[14.616376] (-) TimerEvent: {}
+[14.716952] (-) TimerEvent: {}
+[14.817558] (-) TimerEvent: {}
+[14.918117] (-) TimerEvent: {}
+[15.018822] (-) TimerEvent: {}
+[15.119422] (-) TimerEvent: {}
+[15.220096] (-) TimerEvent: {}
+[15.320767] (-) TimerEvent: {}
+[15.421317] (-) TimerEvent: {}
+[15.521839] (-) TimerEvent: {}
+[15.622440] (-) TimerEvent: {}
+[15.723063] (-) TimerEvent: {}
+[15.823756] (-) TimerEvent: {}
+[15.924392] (-) TimerEvent: {}
+[16.026170] (-) TimerEvent: {}
+[16.126779] (-) TimerEvent: {}
+[16.227528] (-) TimerEvent: {}
+[16.328239] (-) TimerEvent: {}
+[16.428904] (-) TimerEvent: {}
+[16.529611] (-) TimerEvent: {}
+[16.630290] (-) TimerEvent: {}
+[16.730847] (-) TimerEvent: {}
+[16.831475] (-) TimerEvent: {}
+[16.932026] (-) TimerEvent: {}
+[17.032708] (-) TimerEvent: {}
+[17.133447] (-) TimerEvent: {}
+[17.234097] (-) TimerEvent: {}
+[17.334798] (-) TimerEvent: {}
+[17.435427] (-) TimerEvent: {}
+[17.535970] (-) TimerEvent: {}
+[17.636557] (-) TimerEvent: {}
+[17.737243] (-) TimerEvent: {}
+[17.837890] (-) TimerEvent: {}
+[17.938556] (-) TimerEvent: {}
+[18.039158] (-) TimerEvent: {}
+[18.139750] (-) TimerEvent: {}
+[18.240310] (-) TimerEvent: {}
+[18.340933] (-) TimerEvent: {}
+[18.441649] (-) TimerEvent: {}
+[18.542306] (-) TimerEvent: {}
+[18.643026] (-) TimerEvent: {}
+[18.743673] (-) TimerEvent: {}
+[18.844304] (-) TimerEvent: {}
+[18.944864] (-) TimerEvent: {}
+[19.045475] (-) TimerEvent: {}
+[19.146180] (-) TimerEvent: {}
+[19.246887] (-) TimerEvent: {}
+[19.347549] (-) TimerEvent: {}
+[19.448177] (-) TimerEvent: {}
+[19.548778] (-) TimerEvent: {}
+[19.649368] (-) TimerEvent: {}
+[19.749952] (-) TimerEvent: {}
+[19.850616] (-) TimerEvent: {}
+[19.951320] (-) TimerEvent: {}
+[20.052007] (-) TimerEvent: {}
+[20.152705] (-) TimerEvent: {}
+[20.255016] (-) TimerEvent: {}
+[20.327374] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:10:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[20.328492] (farmbot_gazebo_plugin) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::CarGazeboPlugin()\n'}
+[20.328649] (farmbot_gazebo_plugin) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.328825] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:11:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.329042] (farmbot_gazebo_plugin) StderrLine: {'line': b'   11 |     : robot_namespace_{""}\x1b[01;31m\x1b[K,\x1b[m\x1b[K\n'}
+[20.329174] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.329324] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:12:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.329469] (farmbot_gazebo_plugin) StderrLine: {'line': b'   12 |       last_sim_time_\x1b[01;31m\x1b[K{\x1b[m\x1b[K0},\n'}
+[20.329591] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.329711] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:12:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.329891] (farmbot_gazebo_plugin) StderrLine: {'line': b'   12 |       last_sim_time_{0}\x1b[01;31m\x1b[K,\x1b[m\x1b[K\n'}
+[20.330017] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.330155] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:13:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.330275] (farmbot_gazebo_plugin) StderrLine: {'line': b'   13 |       last_update_time_\x1b[01;31m\x1b[K{\x1b[m\x1b[K0},\n'}
+[20.330392] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.330510] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:13:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.330632] (farmbot_gazebo_plugin) StderrLine: {'line': b'   13 |       last_update_time_{0}\x1b[01;31m\x1b[K,\x1b[m\x1b[K\n'}
+[20.330748] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.330923] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:14:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.331047] (farmbot_gazebo_plugin) StderrLine: {'line': b'   14 |       update_period_ms_\x1b[01;31m\x1b[K{\x1b[m\x1b[K8} {}\n'}
+[20.331169] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.331286] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:14:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.331426] (farmbot_gazebo_plugin) StderrLine: {'line': b'   14 |       update_period_ms_{8} \x1b[01;31m\x1b[K{\x1b[m\x1b[K}\n'}
+[20.331543] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.331662] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:16:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.331781] (farmbot_gazebo_plugin) StderrLine: {'line': b'   16 | void \x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::Load(gazebo::physics::ModelPtr model, sdf::ElementPtr sdf) {\n'}
+[20.331951] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.335186] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid farmbot_gazebo_plugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.335399] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:18:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmodel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmodel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.335541] (farmbot_gazebo_plugin) StderrLine: {'line': b'   18 |   \x1b[01;31m\x1b[Kmodel_\x1b[m\x1b[K = model;\n'}
+[20.335665] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.335827] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kmodel\x1b[m\x1b[K\n'}
+[20.339407] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:19:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kworld_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.339642] (farmbot_gazebo_plugin) StderrLine: {'line': b'   19 |   \x1b[01;31m\x1b[Kworld_\x1b[m\x1b[K = model_->GetWorld();\n'}
+[20.339770] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.353489] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_namespace_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.353871] (farmbot_gazebo_plugin) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Krobot_namespace_\x1b[m\x1b[K =  sdf->GetElement("robotNamespace")->Get<std::string>() + "/";\n'}
+[20.354031] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.355112] (-) TimerEvent: {}
+[20.360098] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:28:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_node_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_node_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.360526] (farmbot_gazebo_plugin) StderrLine: {'line': b'   28 |   \x1b[01;31m\x1b[Kros_node_\x1b[m\x1b[K = gazebo_ros::Node::Get(sdf);\n'}
+[20.360738] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.360953] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Krcl_node_t\x1b[m\x1b[K\n'}
+[20.361597] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[20.361913] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[20.362051] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.362182] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[20.362311] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.362436] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.362609] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[20.362744] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[20.362868] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.363011] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[20.363143] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[20.363267] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[20.363390] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.363527] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.363717] (farmbot_gazebo_plugin) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");\n'}
+[20.363841] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.363963] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.364091] (farmbot_gazebo_plugin) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");\n'}
+[20.364212] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.364330] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.364450] (farmbot_gazebo_plugin) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");\n'}
+[20.364615] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.376277] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_state_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.376695] (farmbot_gazebo_plugin) StderrLine: {'line': b'   35 |   \x1b[01;31m\x1b[Kjoint_state_pub_\x1b[m\x1b[K = ros_node_->create_publisher<JointState>("/joint_states", qos);\n'}
+[20.376874] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.379198] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJointState\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.379628] (farmbot_gazebo_plugin) StderrLine: {'line': b'   35 |   joint_state_pub_ = ros_node_->create_publisher<\x1b[01;31m\x1b[KJointState\x1b[m\x1b[K>("/joint_states", qos);\n'}
+[20.379780] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.379919] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[20.380054] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/ModelState.hh:30\x1b[m\x1b[K,\n'}
+[20.380190] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:29\x1b[m\x1b[K,\n'}
+[20.380388] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[20.380513] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[20.380637] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:8\x1b[m\x1b[K,\n'}
+[20.380763] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.380925] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/JointState.hh:36:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgazebo::physics::JointState\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.381059] (farmbot_gazebo_plugin) StderrLine: {'line': b'   36 |     class GZ_PHYSICS_VISIBLE \x1b[01;36m\x1b[KJointState\x1b[m\x1b[K : public State\n'}
+[20.381222] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.381427] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[20.381564] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:12\x1b[m\x1b[K,\n'}
+[20.381699] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.381823] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joint_state__struct.hpp:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::JointState\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.381953] (farmbot_gazebo_plugin) StderrLine: {'line': b'  166 | using \x1b[01;36m\x1b[KJointState\x1b[m\x1b[K =\n'}
+[20.382073] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.388224] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[20.388442] (farmbot_gazebo_plugin) StderrLine: {'line': b'   35 |   joint_state_pub_ = ros_node_->create_publisher<JointState>(\x1b[01;35m\x1b[K"/joint_states"\x1b[m\x1b[K, qos);\n'}
+[20.388579] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.388780] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoints_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.388939] (farmbot_gazebo_plugin) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[name] = std::make_pair(j, pid);\n'}
+[20.389067] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.396093] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:51:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_targets_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.396636] (farmbot_gazebo_plugin) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Kjoint_targets_\x1b[m\x1b[K[name] = 0.0;\n'}
+[20.396787] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.396975] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[20.397107] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[20.397311] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.397449] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[20.397573] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.397694] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.397817] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[20.397937] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[20.398060] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.398199] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[20.398379] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[20.398505] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[20.398629] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.398747] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.398869] (farmbot_gazebo_plugin) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Got joints:");\n'}
+[20.398996] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.399116] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.399268] (farmbot_gazebo_plugin) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Got joints:");\n'}
+[20.399408] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.399528] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.399646] (farmbot_gazebo_plugin) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Got joints:");\n'}
+[20.399771] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.405521] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:55:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoints_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.406020] (farmbot_gazebo_plugin) StderrLine: {'line': b'   55 |   for (auto const& j : \x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K) {\n'}
+[20.406182] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.406350] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[20.406484] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[20.406603] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.406720] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[20.406835] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.406963] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.407080] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[20.407195] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[20.407353] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.407469] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[20.407587] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[20.407702] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[20.407815] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.407927] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.408043] (farmbot_gazebo_plugin) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), j.first.c_str());\n'}
+[20.408158] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.408322] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.408441] (farmbot_gazebo_plugin) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), j.first.c_str());\n'}
+[20.408554] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.408668] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.408783] (farmbot_gazebo_plugin) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), j.first.c_str());\n'}
+[20.408938] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.420528] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.420996] (farmbot_gazebo_plugin) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K = std::make_unique<tf2_ros::TransformBroadcaster>(*ros_node_);\n'}
+[20.421156] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.421353] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[20.421506] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[20.421633] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.421781] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[20.421906] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.422063] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.422185] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[20.422359] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[20.422487] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.422606] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[20.422725] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36\x1b[m\x1b[K,\n'}
+[20.422843] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[20.422974] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.423096] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.423218] (farmbot_gazebo_plugin) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());\n'}
+[20.423387] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.423508] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.423631] (farmbot_gazebo_plugin) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());\n'}
+[20.423752] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.423871] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.423991] (farmbot_gazebo_plugin) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());\n'}
+[20.424123] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.427061] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:64:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kjn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.427338] (farmbot_gazebo_plugin) StderrLine: {'line': b'   64 |   \x1b[01;31m\x1b[Kjc\x1b[m\x1b[K = model_->GetJointController();\n'}
+[20.427478] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.427613] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kjn\x1b[m\x1b[K\n'}
+[20.430935] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:67:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfl_pid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_pid\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.431188] (farmbot_gazebo_plugin) StderrLine: {'line': b'   67 |   \x1b[01;31m\x1b[Kfl_pid\x1b[m\x1b[K = gazebo::common::PID(10, 30, 0);\n'}
+[20.431402] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.431548] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksi_pid\x1b[m\x1b[K\n'}
+[20.439208] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:68:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfl_str_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.439891] (farmbot_gazebo_plugin) StderrLine: {'line': b'   68 |   \x1b[01;31m\x1b[Kfl_str_joint\x1b[m\x1b[K = get_joint("front_steer_left_joint");\n'}
+[20.440163] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.448373] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:68:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.448888] (farmbot_gazebo_plugin) StderrLine: {'line': b'   68 |   fl_str_joint = \x1b[01;31m\x1b[Kget_joint\x1b[m\x1b[K("front_steer_left_joint");\n'}
+[20.449123] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.455318] (-) TimerEvent: {}
+[20.457639] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:73:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfr_pid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_pid\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.458062] (farmbot_gazebo_plugin) StderrLine: {'line': b'   73 |   \x1b[01;31m\x1b[Kfr_pid\x1b[m\x1b[K = gazebo::common::PID(10, 30, 0);\n'}
+[20.458224] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.458433] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksi_pid\x1b[m\x1b[K\n'}
+[20.471142] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:74:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfr_str_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.471863] (farmbot_gazebo_plugin) StderrLine: {'line': b'   74 |   \x1b[01;31m\x1b[Kfr_str_joint\x1b[m\x1b[K = get_joint("front_steer_right_joint");\n'}
+[20.472055] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.489928] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:77:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfl_axle_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.490740] (farmbot_gazebo_plugin) StderrLine: {'line': b'   77 |   \x1b[01;31m\x1b[Kfl_axle_joint\x1b[m\x1b[K = get_joint("front_left_wheel_joint");\n'}
+[20.491042] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.507179] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfr_axle_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.508069] (farmbot_gazebo_plugin) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[Kfr_axle_joint\x1b[m\x1b[K = get_joint("front_right_wheel_joint");\n'}
+[20.508484] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.519330] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:81:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbl_pid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_pid\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.520105] (farmbot_gazebo_plugin) StderrLine: {'line': b'   81 |   \x1b[01;31m\x1b[Kbl_pid\x1b[m\x1b[K = gazebo::common::PID(1, 10, 0.0);\n'}
+[20.520377] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.520593] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksi_pid\x1b[m\x1b[K\n'}
+[20.538828] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:82:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbl_axle_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.539535] (farmbot_gazebo_plugin) StderrLine: {'line': b'   82 |   \x1b[01;31m\x1b[Kbl_axle_joint\x1b[m\x1b[K = get_joint("left_rear_joint");\n'}
+[20.539778] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.552759] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:85:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbr_pid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksi_pid\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.553586] (farmbot_gazebo_plugin) StderrLine: {'line': b'   85 |   \x1b[01;31m\x1b[Kbr_pid\x1b[m\x1b[K = gazebo::common::PID(1, 10, 0.0);\n'}
+[20.553842] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.554046] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksi_pid\x1b[m\x1b[K\n'}
+[20.555511] (-) TimerEvent: {}
+[20.572537] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:86:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbr_axle_joint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.573460] (farmbot_gazebo_plugin) StderrLine: {'line': b'   86 |   \x1b[01;31m\x1b[Kbr_axle_joint\x1b[m\x1b[K = get_joint("right_rear_joint");\n'}
+[20.573739] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.586413] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:90:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.587337] (farmbot_gazebo_plugin) StderrLine: {'line': b'   90 |   \x1b[01;31m\x1b[Kackermann_pub\x1b[m\x1b[K = ros_node_->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("/" + model_->GetName() + "/cmd_ackermann", 10);\n'}
+[20.587764] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.588005] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kackermann_msgs\x1b[m\x1b[K\n'}
+[20.588771] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:90:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.589226] (farmbot_gazebo_plugin) StderrLine: {'line': b'   90 | ros_node_->create_publisher<ackermann_msgs::msg::AckermannDriveStamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K("/" + model_->GetName() + "/cmd_ackermann", 10);\n'}
+[20.589502] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.589821] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.602377] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:91:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.603353] (farmbot_gazebo_plugin) StderrLine: {'line': b'   91 |   \x1b[01;31m\x1b[Kpose_pub\x1b[m\x1b[K = ros_node_->create_publisher<geometry_msgs::msg::PoseStamped>("/" + model_->GetName() + "/pose", qos);\n'}
+[20.603899] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.604256] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:91:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.604509] (farmbot_gazebo_plugin) StderrLine: {'line': b'   91 | pose_pub = ros_node_->create_publisher<geometry_msgs::msg::PoseStamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K("/" + model_->GetName() + "/pose", qos);\n'}
+[20.604722] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.604966] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.614899] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.615555] (farmbot_gazebo_plugin) StderrLine: {'line': b'   94 |   \x1b[01;31m\x1b[Kjoy_sub\x1b[m\x1b[K = ros_node_->create_subscription<sensor_msgs::msg::Joy>("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));\n'}
+[20.615791] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.615996] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.616213] (farmbot_gazebo_plugin) StderrLine: {'line': b'   94 |   joy_sub = ros_node_->create_subscription<sensor_msgs::msg::Joy\x1b[01;31m\x1b[K>\x1b[m\x1b[K("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));\n'}
+[20.616510] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.616732] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[20.617004] (farmbot_gazebo_plugin) StderrLine: {'line': b'   94 |   joy_sub = ros_node_->create_subscription<sensor_msgs::msg::Joy>(\x1b[01;35m\x1b[K"/joy"\x1b[m\x1b[K, 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));\n'}
+[20.617213] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.617603] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.618025] (farmbot_gazebo_plugin) StderrLine: {'line': b'   94 | de_->create_subscription<sensor_msgs::msg::Joy>("/joy", 2, std::bind(&\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::joy_callback, this, std::placeholders::_1));\n'}
+[20.618482] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.618874] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.619244] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[20.619616] (farmbot_gazebo_plugin) StderrLine: {'line': b'   94 | _msgs::msg::Joy>("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, std::placeholders::_1));\n'}
+[20.619901] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[20.620132] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.628697] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.629562] (farmbot_gazebo_plugin) StderrLine: {'line': b'   95 |   \x1b[01;31m\x1b[Kackermann_sub\x1b[m\x1b[K = ros_node_->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, this, std::placeholders::_1));\n'}
+[20.629911] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.630170] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kackermann_msgs\x1b[m\x1b[K\n'}
+[20.630498] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.630826] (farmbot_gazebo_plugin) StderrLine: {'line': b'   95 | _node_->create_subscription<ackermann_msgs::msg::AckermannDriveStamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, this, std::placeholders::_1));\n'}
+[20.631065] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.631305] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.631582] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:152:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.631858] (farmbot_gazebo_plugin) StderrLine: {'line': b'   95 | iveStamped>("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::ackermann_callback, this, std::placeholders::_1));\n'}
+[20.632103] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.632318] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.632618] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:189:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[20.632874] (farmbot_gazebo_plugin) StderrLine: {'line': b'   95 |  "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, std::placeholders::_1));\n'}
+[20.633110] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[20.633341] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.645847] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.646779] (farmbot_gazebo_plugin) StderrLine: {'line': b'   96 |   \x1b[01;31m\x1b[Kcmd_vel_sub\x1b[m\x1b[K = ros_node_->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));\n'}
+[20.647038] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.647285] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.647655] (farmbot_gazebo_plugin) StderrLine: {'line': b'   96 | cmd_vel_sub = ros_node_->create_subscription<geometry_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));\n'}
+[20.647917] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.648125] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.648326] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[20.648615] (farmbot_gazebo_plugin) StderrLine: {'line': b'   96 | d_vel_sub = ros_node_->create_subscription<geometry_msgs::msg::Twist>(\x1b[01;35m\x1b[K"/cmd_vel"\x1b[m\x1b[K, 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));\n'}
+[20.648875] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.649119] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.649356] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.649625] (farmbot_gazebo_plugin) StderrLine: {'line': b'   96 | ate_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 2, std::bind(&\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::twist_callback, this, std::placeholders::_1));\n'}
+[20.649840] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.650048] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.650243] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:134:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[20.650522] (farmbot_gazebo_plugin) StderrLine: {'line': b'   96 | sg::Twist>("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, std::placeholders::_1));\n'}
+[20.650779] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[20.651099] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.655688] (-) TimerEvent: {}
+[20.678361] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kupdate_connection_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.679542] (farmbot_gazebo_plugin) StderrLine: {'line': b'   99 |   \x1b[01;31m\x1b[Kupdate_connection_\x1b[m\x1b[K = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&CarGazeboPlugin::Update, this));\n'}
+[20.679876] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.680570] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.681872] (farmbot_gazebo_plugin) StderrLine: {'line': b'   99 | nnection_ = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::Update, this));\n'}
+[20.682177] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.682480] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.682709] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[20.682940] (farmbot_gazebo_plugin) StderrLine: {'line': b'   99 | ::Events::ConnectWorldUpdateBegin(std::bind(&CarGazeboPlugin::Update, \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K));\n'}
+[20.683198] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[20.683473] (farmbot_gazebo_plugin) StderrLine: {'line': b'\n'}
+[20.683698] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.684538] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:102:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.688836] (farmbot_gazebo_plugin) StderrLine: {'line': b'  102 | void \x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K::Update() {\n'}
+[20.689168] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.691635] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid farmbot_gazebo_plugin::Update()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.692142] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:103:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kworld_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.692507] (farmbot_gazebo_plugin) StderrLine: {'line': b'  103 |   auto cur_time = \x1b[01;31m\x1b[Kworld_\x1b[m\x1b[K->SimTime();\n'}
+[20.692826] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.716994] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:104:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_sim_time_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.717634] (farmbot_gazebo_plugin) StderrLine: {'line': b'  104 |   if (\x1b[01;31m\x1b[Klast_sim_time_\x1b[m\x1b[K == 0) {\n'}
+[20.717880] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.742287] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_update_time_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.742889] (farmbot_gazebo_plugin) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[Klast_update_time_\x1b[m\x1b[K = cur_time;\n'}
+[20.743157] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.755877] (-) TimerEvent: {}
+[20.767421] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:112:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_update_time_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.768273] (farmbot_gazebo_plugin) StderrLine: {'line': b'  112 |   auto update_dt = (cur_time - \x1b[01;31m\x1b[Klast_update_time_\x1b[m\x1b[K).Double();\n'}
+[20.768501] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.793176] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:113:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kupdate_period_ms_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.793874] (farmbot_gazebo_plugin) StderrLine: {'line': b'  113 |   if (update_dt * 1000 >= \x1b[01;31m\x1b[Kupdate_period_ms_\x1b[m\x1b[K) {\n'}
+[20.794149] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.803892] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:115:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmodel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.804574] (farmbot_gazebo_plugin) StderrLine: {'line': b'  115 |     auto pose = \x1b[01;31m\x1b[Kmodel_\x1b[m\x1b[K->WorldPose();\n'}
+[20.804816] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.805085] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kmode_t\x1b[m\x1b[K\n'}
+[20.815272] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:119:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_node_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_node_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.816112] (farmbot_gazebo_plugin) StderrLine: {'line': b'  119 |     pose_msg.header.stamp = \x1b[01;31m\x1b[Kros_node_\x1b[m\x1b[K->now();\n'}
+[20.816352] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.816568] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Krcl_node_t\x1b[m\x1b[K\n'}
+[20.829592] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:128:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.830260] (farmbot_gazebo_plugin) StderrLine: {'line': b'  128 |     \x1b[01;31m\x1b[Kpose_pub\x1b[m\x1b[K->publish(pose_msg);\n'}
+[20.830493] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.855310] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:155:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.856142] (-) TimerEvent: {}
+[20.856491] (farmbot_gazebo_plugin) StderrLine: {'line': b'  155 |       \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K->sendTransform(t);\n'}
+[20.856872] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.860053] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:159:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJointState\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.860523] (farmbot_gazebo_plugin) StderrLine: {'line': b'  159 |     auto msg = \x1b[01;31m\x1b[KJointState\x1b[m\x1b[K{};\n'}
+[20.860772] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.861043] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:159:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[20.861398] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/ModelState.hh:30\x1b[m\x1b[K,\n'}
+[20.861637] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:29\x1b[m\x1b[K,\n'}
+[20.861873] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[20.862141] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[20.862329] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:8\x1b[m\x1b[K,\n'}
+[20.862517] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.862732] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/JointState.hh:36:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgazebo::physics::JointState\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.862986] (farmbot_gazebo_plugin) StderrLine: {'line': b'   36 |     class GZ_PHYSICS_VISIBLE \x1b[01;36m\x1b[KJointState\x1b[m\x1b[K : public State\n'}
+[20.863235] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.863424] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[20.863632] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:12\x1b[m\x1b[K,\n'}
+[20.863818] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.864003] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joint_state__struct.hpp:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::JointState\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.864240] (farmbot_gazebo_plugin) StderrLine: {'line': b'  166 | using \x1b[01;36m\x1b[KJointState\x1b[m\x1b[K =\n'}
+[20.864434] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.872417] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:162:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoints_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.873055] (farmbot_gazebo_plugin) StderrLine: {'line': b'  162 |     for (auto& j : \x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K) {\n'}
+[20.873339] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.896579] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:169:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_state_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.897483] (farmbot_gazebo_plugin) StderrLine: {'line': b'  169 |     \x1b[01;31m\x1b[Kjoint_state_pub_\x1b[m\x1b[K->publish(msg);\n'}
+[20.897687] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.918339] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:173:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_sim_time_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.918971] (farmbot_gazebo_plugin) StderrLine: {'line': b'  173 |   \x1b[01;31m\x1b[Klast_sim_time_\x1b[m\x1b[K = cur_time;\n'}
+[20.919158] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.919424] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:7\x1b[m\x1b[K,\n'}
+[20.919716] (farmbot_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.919930] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kgazebo::ModelPlugin* farmbot_gazebo_plugin::RegisterPlugin()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.920169] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected type-specifier before \xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.920314] (farmbot_gazebo_plugin) StderrLine: {'line': b'  176 | GZ_REGISTER_MODEL_PLUGIN(\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K)\n'}
+[20.920515] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.920779] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGZ_REGISTER_MODEL_PLUGIN\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.921056] (farmbot_gazebo_plugin) StderrLine: {'line': b'  459 |     return new \x1b[01;36m\x1b[Kclassname\x1b[m\x1b[K();\\\n'}
+[20.921194] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.921358] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.921570] (farmbot_gazebo_plugin) StderrLine: {'line': b'  176 | GZ_REGISTER_MODEL_PLUGIN(\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K)\n'}
+[20.921768] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.921975] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGZ_REGISTER_MODEL_PLUGIN\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.922163] (farmbot_gazebo_plugin) StderrLine: {'line': b'  459 |     return new \x1b[01;36m\x1b[Kclassname\x1b[m\x1b[K();\\\n'}
+[20.922333] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.931474] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kneor_mini_gazebo_plugin::CarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.931914] (farmbot_gazebo_plugin) StderrLine: {'line': b'  176 | GZ_REGISTER_MODEL_PLUGIN(\x1b[01;31m\x1b[KCarGazeboPlugin\x1b[m\x1b[K)\n'}
+[20.932054] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.932180] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGZ_REGISTER_MODEL_PLUGIN\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.932417] (farmbot_gazebo_plugin) StderrLine: {'line': b'  459 |     return new \x1b[01;36m\x1b[Kclassname\x1b[m\x1b[K();\\\n'}
+[20.932546] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.932663] (farmbot_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[20.932813] (farmbot_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:111:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kneor_mini_gazebo_plugin::CarGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[20.933032] (farmbot_gazebo_plugin) StderrLine: {'line': b'  111 |   class \x1b[01;36m\x1b[KCarGazeboPlugin\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[20.933153] (farmbot_gazebo_plugin) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.956774] (-) TimerEvent: {}
+[21.057865] (-) TimerEvent: {}
+[21.158839] (-) TimerEvent: {}
+[21.259759] (-) TimerEvent: {}
+[21.360343] (-) TimerEvent: {}
+[21.461029] (-) TimerEvent: {}
+[21.561827] (-) TimerEvent: {}
+[21.662527] (-) TimerEvent: {}
+[21.763708] (-) TimerEvent: {}
+[21.864316] (-) TimerEvent: {}
+[21.965011] (-) TimerEvent: {}
+[22.065702] (-) TimerEvent: {}
+[22.166398] (-) TimerEvent: {}
+[22.267517] (-) TimerEvent: {}
+[22.369409] (-) TimerEvent: {}
+[22.470376] (-) TimerEvent: {}
+[22.571437] (-) TimerEvent: {}
+[22.672193] (-) TimerEvent: {}
+[22.772988] (-) TimerEvent: {}
+[22.874626] (-) TimerEvent: {}
+[22.983671] (-) TimerEvent: {}
+[23.084350] (-) TimerEvent: {}
+[23.184992] (-) TimerEvent: {}
+[23.286805] (-) TimerEvent: {}
+[23.387562] (-) TimerEvent: {}
+[23.488176] (-) TimerEvent: {}
+[23.588913] (-) TimerEvent: {}
+[23.689651] (-) TimerEvent: {}
+[23.791798] (-) TimerEvent: {}
+[23.896597] (-) TimerEvent: {}
+[23.998340] (-) TimerEvent: {}
+[24.098912] (-) TimerEvent: {}
+[24.200486] (-) TimerEvent: {}
+[24.301105] (-) TimerEvent: {}
+[24.401765] (-) TimerEvent: {}
+[24.502455] (-) TimerEvent: {}
+[24.603098] (-) TimerEvent: {}
+[24.703765] (-) TimerEvent: {}
+[24.804426] (-) TimerEvent: {}
+[24.850554] (farmbot_gazebo_plugin) StderrLine: {'line': b'make[2]: *** [CMakeFiles/farmbot_gazebo_plugin.dir/build.make:63: CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o] Error 1\n'}
+[24.851280] (farmbot_gazebo_plugin) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/farmbot_gazebo_plugin.dir/all] Error 2\n'}
+[24.851652] (farmbot_gazebo_plugin) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[24.855136] (farmbot_gazebo_plugin) CommandEnded: {'returncode': 2}
+[24.906033] (-) TimerEvent: {}
+[24.918013] (farmbot_gazebo_plugin) JobEnded: {'identifier': 'farmbot_gazebo_plugin', 'rc': 2}
+[24.929448] (-) EventReactorShutdown: {}

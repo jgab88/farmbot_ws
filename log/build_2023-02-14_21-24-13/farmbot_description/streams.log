@@ -1,0 +1,126 @@
+[0.051s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jg/farmbot_ws/src/farmbot_description -DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_description
+[0.128s] -- The C compiler identification is GNU 9.4.0
+[0.208s] -- The CXX compiler identification is GNU 9.4.0
+[0.215s] -- Check for working C compiler: /usr/bin/cc
+[0.318s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.319s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.567s] -- Detecting CXX compiler ABI info
+[0.682s] -- Detecting CXX compiler ABI info - done
+[0.698s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.702s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.742s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.742s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.069s] -- Found rviz2: 8.2.7 (/opt/ros/foxy/share/rviz2/cmake)
+[1.073s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.160s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.278s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.323s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.539s] -- Looking for pthread.h
+[1.648s] -- Looking for pthread.h - found
+[1.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.757s] -- Looking for pthread_create in pthreads
+[1.848s] -- Looking for pthread_create in pthreads - not found
+[1.848s] -- Looking for pthread_create in pthread
+[1.953s] -- Looking for pthread_create in pthread - found
+[1.954s] -- Found Threads: TRUE  
+[2.181s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[2.184s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[2.223s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.404s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.407s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jg/farmbot_ws/src/farmbot_description/include>
+[2.407s] -- Configured cppcheck exclude dirs and/or files: 
+[2.410s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.410s] -- Configured cpplint exclude dirs and/or files: 
+[2.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.413s] -- Added test 'lint_cmake' to check CMake code style
+[2.414s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.417s] -- Added test 'uncrustify' to check C / C++ code style
+[2.417s] -- Configured uncrustify additional arguments: 
+[2.418s] -- Added test 'xmllint' to check XML markup files
+[2.423s] -- Configuring done
+[2.429s] -- Generating done
+[2.431s] -- Build files have been written to: /home/jg/farmbot_ws/build/farmbot_description
+[2.445s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jg/farmbot_ws/src/farmbot_description -DCMAKE_INSTALL_PREFIX=/home/jg/farmbot_ws/install/farmbot_description
+[2.451s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jg/farmbot_ws/build/farmbot_description -- -j10 -l10
+[2.511s] [35m[1mScanning dependencies of target farmbot_description_node[0m
+[2.526s] [ 50%] [32mBuilding CXX object CMakeFiles/farmbot_description_node.dir/src/farmbot_description_node.cpp.o[0m
+[2.569s] [100%] [32m[1mLinking CXX executable farmbot_description_node[0m
+[2.634s] [100%] Built target farmbot_description_node
+[2.652s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jg/farmbot_ws/build/farmbot_description -- -j10 -l10
+[2.705s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jg/farmbot_ws/build/farmbot_description
+[2.715s] -- Install configuration: ""
+[2.716s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/lib/farmbot_description/farmbot_description_node
+[2.716s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[2.717s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/display.launch.py
+[2.717s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/spawn_car.launch.py
+[2.717s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/gazebo.launch.py
+[2.718s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[2.718s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__3.stl
+[2.719s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__1.stl
+[2.719s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__4.stl
+[2.719s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__1__1.stl
+[2.720s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/base_link.stl
+[2.720s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__2.stl
+[2.720s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config
+[2.720s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config/display.rviz
+[2.721s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/src
+[2.721s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/src/farmbot_description_node.cpp
+[2.722s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[2.722s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_skid.xacro
+[2.722s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/materials.xacro
+[2.722s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.trans
+[2.723s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.gazebo
+[2.723s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.xacro
+[2.723s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control.xacro
+[2.723s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbotWorkingArchieve.xacro
+[2.724s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds
+[2.724s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/simple.world
+[2.724s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/cafe.world
+[2.724s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/worlds/cooneo_office.world
+[2.725s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/lib/farmbot_description/spawn_bot.py
+[2.725s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch
+[2.725s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/display.launch.py
+[2.725s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/spawn_car.launch.py
+[2.725s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//launch/gazebo.launch.py
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/gazebo_control_skid.xacro
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/materials.xacro
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.trans
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.gazebo
+[2.726s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbot.xacro
+[2.727s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/gazebo_control.xacro
+[2.727s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//urdf/farmbotWorkingArchieve.xacro
+[2.728s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds
+[2.728s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/simple.world
+[2.728s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/cafe.world
+[2.729s] -- Up-to-date: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//worlds/cooneo_office.world
+[2.731s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//scripts
+[2.732s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description//scripts/spawn_bot.py
+[2.735s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/package_run_dependencies/farmbot_description
+[2.735s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/parent_prefix_path/farmbot_description
+[2.736s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/ament_prefix_path.sh
+[2.737s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/ament_prefix_path.dsv
+[2.738s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/path.sh
+[2.739s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/environment/path.dsv
+[2.739s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.bash
+[2.740s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.sh
+[2.740s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.zsh
+[2.743s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/local_setup.dsv
+[2.746s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.dsv
+[2.747s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/packages/farmbot_description
+[2.748s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/cmake/farmbot_descriptionConfig.cmake
+[2.749s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/cmake/farmbot_descriptionConfig-version.cmake
+[2.749s] -- Installing: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.xml
+[2.750s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jg/farmbot_ws/build/farmbot_description

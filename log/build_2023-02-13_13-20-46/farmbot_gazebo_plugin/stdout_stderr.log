@@ -1,0 +1,19 @@
+[100%] Built target farmbot_gazebo_plugin
+-- Install configuration: ""
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/libfarmbot_gazebo_plugin.so
+-- Set runtime path of "/home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/libfarmbot_gazebo_plugin.so" to ""
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/farmbot_gazebo_plugin
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/farmbot_gazebo_plugin
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/ament_prefix_path.sh
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/ament_prefix_path.dsv
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/path.sh
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/environment/path.dsv
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.bash
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.sh
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.zsh
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/local_setup.dsv
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/package.dsv
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/ament_index/resource_index/packages/farmbot_gazebo_plugin
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/cmake/farmbot_gazebo_pluginConfig.cmake
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/cmake/farmbot_gazebo_pluginConfig-version.cmake
+-- Installing: /home/jg/farmbot_ws/install/farmbot_gazebo_plugin/share/farmbot_gazebo_plugin/package.xml

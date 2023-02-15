@@ -1,0 +1,184 @@
+UpdateCTestConfiguration  from :/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini
+Parse Config file:/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini
+   Site: ros2-foxy
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20230215-0340 - Experimental
+UpdateCTestConfiguration  from :/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini
+Parse Config file:/home/jg/farmbot_ws/build/farmbot_description/CTestConfiguration.ini
+Test project /home/jg/farmbot_ws/build/farmbot_description
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml
+1: launch/display.launch.py: could not find copyright notice
+1: launch/gazebo.launch.py: could not find copyright notice
+1: launch/spawn_car.launch.py: could not find copyright notice
+1: scripts/spawn_bot.py: could not find copyright notice
+1: setup_archived.py: could not find copyright notice
+1: src/farmbot_description_node.cpp: could not find copyright notice
+1: 6 errors, checked 10 files
+1: -- run_test.py: return code 1
+1: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/copyright.xunit.xml'
+1/8 Test #1: copyright ........................***Failed    0.45 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml" "--include_dirs" "/home/jg/farmbot_ws/src/farmbot_description/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml --include_dirs /home/jg/farmbot_ws/src/farmbot_description/include
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cppcheck.xunit.xml'
+2/8 Test #2: cppcheck .........................   Passed    0.46 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml"
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml
+3: /home/jg/farmbot_ws/src/farmbot_description/src/farmbot_description_node.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+3: Category 'legal/copyright' errors found: 1
+3: Total errors found: 1
+3: Using '--root=/home/jg/farmbot_ws/src/farmbot_description/src' argument
+3: 
+3: Done processing /home/jg/farmbot_ws/src/farmbot_description/src/farmbot_description_node.cpp
+3: 
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/cpplint.xunit.xml'
+3/8 Test #3: cpplint ..........................***Failed    0.45 sec
+test 4
+    Start 4: flake8
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml
+4: Traceback (most recent call last):
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 158, in load_plugin
+4:     self._load()
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 135, in _load
+4:     self._plugin = self.entry_point.load()
+4:   File "/usr/lib/python3/dist-packages/entrypoints.py", line 83, in load
+4:     obj = getattr(obj, attr)
+4: AttributeError: module 'pycodestyle' has no attribute 'missing_whitespace_after_import_keyword'
+4: 
+4: During handling of the above exception, another exception occurred:
+4: 
+4: Traceback (most recent call last):
+4:   File "/opt/ros/foxy/bin/ament_flake8", line 11, in <module>
+4:     load_entry_point('ament-flake8==0.9.7', 'console_scripts', 'ament_flake8')()
+4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 32, in main
+4:     rc, _ = main_with_errors(argv=argv)
+4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 86, in main_with_errors
+4:     report = generate_flake8_report(
+4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 189, in generate_flake8_report
+4:     style = get_flake8_style_guide(flake8_argv)
+4:   File "/opt/ros/foxy/lib/python3.8/site-packages/ament_flake8/main.py", line 161, in get_flake8_style_guide
+4:     application.find_plugins()
+4:   File "/usr/lib/python3/dist-packages/flake8/main/application.py", line 199, in find_plugins
+4:     self.check_plugins.load_plugins()
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 410, in load_plugins
+4:     plugins = list(self.manager.map(load_plugin))
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 297, in map
+4:     yield func(self.plugins[name], *args, **kwargs)
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 408, in load_plugin
+4:     return plugin.load_plugin()
+4:   File "/usr/lib/python3/dist-packages/flake8/plugins/manager.py", line 165, in load_plugin
+4:     raise failed_to_load
+4: flake8.exceptions.FailedToLoadPlugin: Flake8 failed to load plugin "pycodestyle.missing_whitespace_after_import_keyword" due to module 'pycodestyle' has no attribute 'missing_whitespace_after_import_keyword'.
+4: -- run_test.py: return code 1
+4: -- run_test.py: generate result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml' with failed test
+4: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/flake8.xunit.xml'
+4/8 Test #4: flake8 ...........................***Failed    0.73 sec
+test 5
+    Start 5: lint_cmake
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/lint_cmake.xunit.xml'
+5/8 Test #5: lint_cmake .......................   Passed    0.40 sec
+test 6
+    Start 6: pep257
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml
+6: checking ./farmbot_description/__init__.py
+6: checking ./launch/display.launch.py
+6: checking ./launch/gazebo.launch.py
+6: checking ./launch/spawn_car.launch.py
+6: checking ./scripts/spawn_bot.py
+6: checking ./setup_archived.py
+6: checking ./test/test_copyright.py
+6: checking ./test/test_flake8.py
+6: checking ./test/test_pep257.py
+6: No problems found
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/pep257.xunit.xml'
+6/8 Test #6: pep257 ...........................   Passed    0.52 sec
+test 7
+    Start 7: uncrustify
+
+7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml"
+7: Test timeout computed to be: 60
+7: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml
+7: No code style divergence in file 'src/farmbot_description_node.cpp'
+7: 
+7: No problems found
+7: -- run_test.py: return code 0
+7: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/uncrustify.xunit.xml'
+7/8 Test #7: uncrustify .......................   Passed    0.42 sec
+test 8
+    Start 8: xmllint
+
+8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml" "--package-name" "farmbot_description" "--output-file" "/home/jg/farmbot_ws/build/farmbot_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml"
+8: Test timeout computed to be: 60
+8: -- run_test.py: invoking following command in '/home/jg/farmbot_ws/src/farmbot_description':
+8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml
+8: File 'package.xml' is valid
+8: 
+8: No problems found
+8: -- run_test.py: return code 0
+8: -- run_test.py: verify result file '/home/jg/farmbot_ws/build/farmbot_description/test_results/farmbot_description/xmllint.xunit.xml'
+8/8 Test #8: xmllint ..........................   Passed    0.73 sec
+
+63% tests passed[0;0m, [0;31m3 tests failed[0;0m out of 8
+
+Label Time Summary:
+copyright     =   0.45 sec*proc (1 test)
+cppcheck      =   0.46 sec*proc (1 test)
+cpplint       =   0.45 sec*proc (1 test)
+flake8        =   0.73 sec*proc (1 test)
+lint_cmake    =   0.40 sec*proc (1 test)
+linter        =   4.17 sec*proc (8 tests)
+pep257        =   0.52 sec*proc (1 test)
+uncrustify    =   0.42 sec*proc (1 test)
+xmllint       =   0.73 sec*proc (1 test)
+
+Total Test time (real) =   4.17 sec
+
+The following tests FAILED:
+	[0;31m  1 - copyright (Failed)[0;0m
+	[0;31m  3 - cpplint (Failed)[0;0m
+	[0;31m  4 - flake8 (Failed)[0;0m
+Errors while running CTest

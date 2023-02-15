@@ -1,0 +1,480 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Gazebo version: 11.11
+-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jg/farmbot_ws/build/farmbot_gazebo_plugin
+[35m[1mScanning dependencies of target farmbot_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o[0m
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:10:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ does not name a type
+   10 | [01;31m[KCarGazeboPlugin[m[K::CarGazeboPlugin()
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:11:27:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+   11 |     : robot_namespace_{""}[01;31m[K,[m[K
+      |                           [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:12:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K{[m[K’ token
+   12 |       last_sim_time_[01;31m[K{[m[K0},
+      |                     [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:12:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+   12 |       last_sim_time_{0}[01;31m[K,[m[K
+      |                        [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:13:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K{[m[K’ token
+   13 |       last_update_time_[01;31m[K{[m[K0},
+      |                        [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:13:27:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+   13 |       last_update_time_{0}[01;31m[K,[m[K
+      |                           [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:14:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K{[m[K’ token
+   14 |       update_period_ms_[01;31m[K{[m[K8} {}
+      |                        [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:14:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   14 |       update_period_ms_{8} [01;31m[K{[m[K}
+      |                            [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:16:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+   16 | void [01;31m[KCarGazeboPlugin[m[K::Load(gazebo::physics::ModelPtr model, sdf::ElementPtr sdf) {
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:[m[K In function ‘[01m[Kvoid farmbot_gazebo_plugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodel[m[K’?
+   18 |   [01;31m[Kmodel_[m[K = model;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kmodel[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld_[m[K’ was not declared in this scope
+   19 |   [01;31m[Kworld_[m[K = model_->GetWorld();
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_namespace_[m[K’ was not declared in this scope
+   24 |     [01;31m[Krobot_namespace_[m[K =  sdf->GetElement("robotNamespace")->Get<std::string>() + "/";
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_node_t[m[K’?
+   28 |   [01;31m[Kros_node_[m[K = gazebo_ros::Node::Get(sdf);
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Krcl_node_t[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:29:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Loading Car Gazebo Plugin");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_pub_[m[K’ was not declared in this scope
+   35 |   [01;31m[Kjoint_state_pub_[m[K = ros_node_->create_publisher<JointState>("/joint_states", qos);
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:50:[m[K [01;31m[Kerror: [m[K‘[01m[KJointState[m[K’ was not declared in this scope
+   35 |   joint_state_pub_ = ros_node_->create_publisher<[01;31m[KJointState[m[K>("/joint_states", qos);
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:50:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/ModelState.hh:30[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:29[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:8[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/JointState.hh:36:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgazebo::physics::JointState[m[K’
+   36 |     class GZ_PHYSICS_VISIBLE [01;36m[KJointState[m[K : public State
+      |                              [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:12[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joint_state__struct.hpp:166:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::JointState[m[K’
+  166 | using [01;36m[KJointState[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:35:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   35 |   joint_state_pub_ = ros_node_->create_publisher<JointState>([01;35m[K"/joint_states"[m[K, qos);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoints_[m[K’ was not declared in this scope
+   50 |     [01;31m[Kjoints_[m[K[name] = std::make_pair(j, pid);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_targets_[m[K’ was not declared in this scope
+   51 |     [01;31m[Kjoint_targets_[m[K[name] = 0.0;
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Got joints:");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Got joints:");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Got joints:");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:55:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoints_[m[K’ was not declared in this scope
+   55 |   for (auto const& j : [01;31m[Kjoints_[m[K) {
+      |                        [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), j.first.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), j.first.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), j.first.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   59 |   [01;31m[Ktf_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(*ros_node_);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:4[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:62:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   [01;31m[KRCLCPP_DEBUG[m[K(ros_node_->get_logger(), "Connected to model %s", model_->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjc[m[K’ was not declared in this scope; did you mean ‘[01m[Kjn[m[K’?
+   64 |   [01;31m[Kjc[m[K = model_->GetJointController();
+      |   [01;31m[K^~[m[K
+      |   [32m[Kjn[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfl_pid[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_pid[m[K’?
+   67 |   [01;31m[Kfl_pid[m[K = gazebo::common::PID(10, 30, 0);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ksi_pid[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:68:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfl_str_joint[m[K’ was not declared in this scope
+   68 |   [01;31m[Kfl_str_joint[m[K = get_joint("front_steer_left_joint");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:68:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_joint[m[K’ was not declared in this scope
+   68 |   fl_str_joint = [01;31m[Kget_joint[m[K("front_steer_left_joint");
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfr_pid[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_pid[m[K’?
+   73 |   [01;31m[Kfr_pid[m[K = gazebo::common::PID(10, 30, 0);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ksi_pid[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfr_str_joint[m[K’ was not declared in this scope
+   74 |   [01;31m[Kfr_str_joint[m[K = get_joint("front_steer_right_joint");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:77:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfl_axle_joint[m[K’ was not declared in this scope
+   77 |   [01;31m[Kfl_axle_joint[m[K = get_joint("front_left_wheel_joint");
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfr_axle_joint[m[K’ was not declared in this scope
+   78 |   [01;31m[Kfr_axle_joint[m[K = get_joint("front_right_wheel_joint");
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:81:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbl_pid[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_pid[m[K’?
+   81 |   [01;31m[Kbl_pid[m[K = gazebo::common::PID(1, 10, 0.0);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ksi_pid[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:82:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbl_axle_joint[m[K’ was not declared in this scope
+   82 |   [01;31m[Kbl_axle_joint[m[K = get_joint("left_rear_joint");
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:85:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr_pid[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_pid[m[K’?
+   85 |   [01;31m[Kbr_pid[m[K = gazebo::common::PID(1, 10, 0.0);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ksi_pid[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:86:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr_axle_joint[m[K’ was not declared in this scope
+   86 |   [01;31m[Kbr_axle_joint[m[K = get_joint("right_rear_joint");
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:90:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kackermann_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kackermann_msgs[m[K’?
+   90 |   [01;31m[Kackermann_pub[m[K = ros_node_->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("/" + model_->GetName() + "/cmd_ackermann", 10);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Kackermann_msgs[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:90:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   90 | ros_node_->create_publisher<ackermann_msgs::msg::AckermannDriveStamped[01;31m[K>[m[K("/" + model_->GetName() + "/cmd_ackermann", 10);
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:91:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_pub[m[K’ was not declared in this scope
+   91 |   [01;31m[Kpose_pub[m[K = ros_node_->create_publisher<geometry_msgs::msg::PoseStamped>("/" + model_->GetName() + "/pose", qos);
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:91:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   91 | pose_pub = ros_node_->create_publisher<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K("/" + model_->GetName() + "/pose", qos);
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy_sub[m[K’ was not declared in this scope
+   94 |   [01;31m[Kjoy_sub[m[K = ros_node_->create_subscription<sensor_msgs::msg::Joy>("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   94 |   joy_sub = ros_node_->create_subscription<sensor_msgs::msg::Joy[01;31m[K>[m[K("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:67:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   94 |   joy_sub = ros_node_->create_subscription<sensor_msgs::msg::Joy>([01;35m[K"/joy"[m[K, 2, std::bind(&CarGazeboPlugin::joy_callback, this, std::placeholders::_1));
+      |                                                                   [01;35m[K^~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:89:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+   94 | de_->create_subscription<sensor_msgs::msg::Joy>("/joy", 2, std::bind(&[01;31m[KCarGazeboPlugin[m[K::joy_callback, this, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:94:120:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   94 | _msgs::msg::Joy>("/joy", 2, std::bind(&CarGazeboPlugin::joy_callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kackermann_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kackermann_msgs[m[K’?
+   95 |   [01;31m[Kackermann_sub[m[K = ros_node_->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, this, std::placeholders::_1));
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Kackermann_msgs[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:92:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   95 | _node_->create_subscription<ackermann_msgs::msg::AckermannDriveStamped[01;31m[K>[m[K("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, this, std::placeholders::_1));
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:152:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+   95 | iveStamped>("/" + model_->GetName() + "/cmd_ackermann", 2, std::bind(&[01;31m[KCarGazeboPlugin[m[K::ackermann_callback, this, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:95:189:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |  "/cmd_ackermann", 2, std::bind(&CarGazeboPlugin::ackermann_callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_sub[m[K’ was not declared in this scope
+   96 |   [01;31m[Kcmd_vel_sub[m[K = ros_node_->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   96 | cmd_vel_sub = ros_node_->create_subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:75:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   96 | d_vel_sub = ros_node_->create_subscription<geometry_msgs::msg::Twist>([01;35m[K"/cmd_vel"[m[K, 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));
+      |                                                                       [01;35m[K^~~~~~~~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:101:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+   96 | ate_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 2, std::bind(&[01;31m[KCarGazeboPlugin[m[K::twist_callback, this, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:96:134:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   96 | sg::Twist>("/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_connection_[m[K’ was not declared in this scope
+   99 |   [01;31m[Kupdate_connection_[m[K = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&CarGazeboPlugin::Update, this));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:82:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+   99 | nnection_ = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&[01;31m[KCarGazeboPlugin[m[K::Update, this));
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:99:107:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   99 | ::Events::ConnectWorldUpdateBegin(std::bind(&CarGazeboPlugin::Update, [01;31m[Kthis[m[K));
+      |                                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:[m[K At global scope:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:102:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ has not been declared
+  102 | void [01;31m[KCarGazeboPlugin[m[K::Update() {
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:[m[K In function ‘[01m[Kvoid farmbot_gazebo_plugin::Update()[m[K’:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:103:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld_[m[K’ was not declared in this scope
+  103 |   auto cur_time = [01;31m[Kworld_[m[K->SimTime();
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:104:7:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_sim_time_[m[K’ was not declared in this scope
+  104 |   if ([01;31m[Klast_sim_time_[m[K == 0) {
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_update_time_[m[K’ was not declared in this scope
+  106 |     [01;31m[Klast_update_time_[m[K = cur_time;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:112:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_update_time_[m[K’ was not declared in this scope
+  112 |   auto update_dt = (cur_time - [01;31m[Klast_update_time_[m[K).Double();
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:113:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_period_ms_[m[K’ was not declared in this scope
+  113 |   if (update_dt * 1000 >= [01;31m[Kupdate_period_ms_[m[K) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:115:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  115 |     auto pose = [01;31m[Kmodel_[m[K->WorldPose();
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kmode_t[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:119:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_node_t[m[K’?
+  119 |     pose_msg.header.stamp = [01;31m[Kros_node_[m[K->now();
+      |                             [01;31m[K^~~~~~~~~[m[K
+      |                             [32m[Krcl_node_t[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_pub[m[K’ was not declared in this scope
+  128 |     [01;31m[Kpose_pub[m[K->publish(pose_msg);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:155:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+  155 |       [01;31m[Ktf_broadcaster_[m[K->sendTransform(t);
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:159:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJointState[m[K’ was not declared in this scope
+  159 |     auto msg = [01;31m[KJointState[m[K{};
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:159:16:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/ModelState.hh:30[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:29[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:8[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/JointState.hh:36:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgazebo::physics::JointState[m[K’
+   36 |     class GZ_PHYSICS_VISIBLE [01;36m[KJointState[m[K : public State
+      |                              [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:12[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joint_state__struct.hpp:166:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::JointState[m[K’
+  166 | using [01;36m[KJointState[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:162:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoints_[m[K’ was not declared in this scope
+  162 |     for (auto& j : [01;31m[Kjoints_[m[K) {
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:169:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_pub_[m[K’ was not declared in this scope
+  169 |     [01;31m[Kjoint_state_pub_[m[K->publish(msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:173:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_sim_time_[m[K’ was not declared in this scope
+  173 |   [01;31m[Klast_sim_time_[m[K = cur_time;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:7[m[K,
+                 from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:[m[K In function ‘[01m[Kgazebo::ModelPlugin* farmbot_gazebo_plugin::RegisterPlugin()[m[K’:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KCarGazeboPlugin[m[K’
+  176 | GZ_REGISTER_MODEL_PLUGIN([01;31m[KCarGazeboPlugin[m[K)
+      |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KCarGazeboPlugin[m[K’
+  176 | GZ_REGISTER_MODEL_PLUGIN([01;31m[KCarGazeboPlugin[m[K)
+      |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:176:26:[m[K [01;31m[Kerror: [m[K‘[01m[KCarGazeboPlugin[m[K’ was not declared in this scope; did you mean ‘[01m[Kneor_mini_gazebo_plugin::CarGazeboPlugin[m[K’?
+  176 | GZ_REGISTER_MODEL_PLUGIN([01;31m[KCarGazeboPlugin[m[K)
+      |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.cpp:1[m[K:
+[01m[K/home/jg/farmbot_ws/src/farmbot_gazebo_plugin/src/farmbot_gazebo_plugin.hpp:111:9:[m[K [01;36m[Knote: [m[K‘[01m[Kneor_mini_gazebo_plugin::CarGazeboPlugin[m[K’ declared here
+  111 |   class [01;36m[KCarGazeboPlugin[m[K : public gazebo::ModelPlugin
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/farmbot_gazebo_plugin.dir/build.make:63: CMakeFiles/farmbot_gazebo_plugin.dir/src/farmbot_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/farmbot_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

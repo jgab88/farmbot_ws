@@ -1,5 +1,5 @@
-#ifndef neor_mini_gazebo_plugin__neor_mini_gazebo_plugin_HPP_
-#define neor_mini_gazebo_plugin__neor_mini_gazebo_plugin_HPP_
+#ifndef farmbot_gazebo_plugin__farmbot_gazebo_plugin_HPP_
+#define farmbot_gazebo_plugin__farmbot_gazebo_plugin_HPP_
 
 #include <tf2_ros/transform_broadcaster.h>
 #include <ackermann_msgs/msg/ackermann_drive_stamped.hpp>
@@ -105,7 +105,7 @@ public:
   }
 };
 
-namespace neor_mini_gazebo_plugin
+namespace farmbot_gazebo_plugin
 {
 
   class CarGazeboPlugin : public gazebo::ModelPlugin
@@ -248,6 +248,6 @@ namespace neor_mini_gazebo_plugin
     }
   };
 
-} // namespace neor_mini_gazebo_plugin
+} // namespace farmbot_gazebo_plugin
 
-#endif // neor_mini_gazebo_plugin__neor_mini_gazebo_plugin_HPP_
+#endif // farmbot_gazebo_plugin__farmbot_gazebo_plugin_HPP_

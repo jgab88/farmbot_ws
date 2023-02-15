@@ -25,7 +25,7 @@ def generate_launch_description():
         default_value='False'
     )
 
-    show_gui = LaunchConfiguration('gui')
+    #show_gui = LaunchConfiguration('gui')
     
     #robot_state_publisher - create
     params = {'robot_description': robot_description_config.toxml(), 'use_sim_time':
@@ -40,12 +40,12 @@ def generate_launch_description():
         
     )
 
-#    joint_state_publisher_node = Node(
-#        condition=UnlessCondition(show_gui),
-#        package='joint_state_publisher',
-#        executable='joint_state_publisher',
-#        name='joint_state_publisher'
-#    )
+    joint_state_publisher_node = Node(
+    #    condition=UnlessCondition(show_gui),
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher'
+    )
 
 #    joint_state_publisher_gui_node = Node(
 #        condition=IfCondition(show_gui),
@@ -54,13 +54,13 @@ def generate_launch_description():
 #        name='joint_state_publisher_gui'
 #    )
 
-#    rviz_node = Node(
-#        package='rviz2',
-#        executable='rviz2',
-#        name='rviz2',
-#        arguments=['-d', rviz_config_file],
-#        output='screen'
-#    )
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_config_file],
+        output='screen'
+    )
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -69,7 +69,7 @@ def generate_launch_description():
             description='Use sim time if true'),
         gui_arg,
         robot_state_publisher_node,
-#        joint_state_publisher_node,
+        joint_state_publisher_node,
 #        joint_state_publisher_gui_node,
-#        rviz_node
+        rviz_node
     ])

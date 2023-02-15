@@ -10,7 +10,8 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-    package_name = 'farmbot_description'
+    pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
+    package_name = get_package_share_directory('farmbot_description')
 #    share_dir = get_package_share_directory('farmbot_description')
 
 #    xacro_file = os.path.join(share_dir, 'urdf', 'farmbot.xacro')
@@ -22,6 +23,12 @@ def generate_launch_description():
             get_package_share_directory(
                 package_name), 'launch', 'display.launch.py'
         )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
+
+    car = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(package_name, 'launch', 'spawn_car.launch.py'),
+        )
     )
 
 #    robot_state_publisher_node = Node(
@@ -39,28 +46,35 @@ def generate_launch_description():
 #        name='joint_state_publisher'
 #    )
 
-    #gazebo_server = IncludeLaunchDescription(
-    #    PythonLaunchDescriptionSource([
-    #        PathJoinSubstitution([
-    #            FindPackageShare('gazebo_ros'),
-    #            'launch',
-    #            'gzserver.launch.py'
-    #        ])
-    #    ]),
-    #    launch_arguments={
-    #        'pause': 'true'
-    #    }.items()
-    #)
+#    gazebo_server = IncludeLaunchDescription(
+#        PythonLaunchDescriptionSource([
+#            PathJoinSubstitution([
+#                FindPackageShare('gazebo_ros'),
+#                'launch',
+#                'gzserver.launch.py'
+#            ])
+#        ]),
+#        launch_arguments={
+#            'pause': 'true'
+#        }.items()
+#    )
 
-    #gazebo_client = IncludeLaunchDescription(
-    #    PythonLaunchDescriptionSource([
-    #        PathJoinSubstitution([
-    #            FindPackageShare('gazebo_ros'),
-    #            'launch',
-    #            'gzclient.launch.py'
-    #        ])
-    #    ])
-    #)
+#    gazebo_client = IncludeLaunchDescription(
+#        PythonLaunchDescriptionSource([
+#            PathJoinSubstitution([
+#                FindPackageShare('gazebo_ros'),
+#                'launch',
+#                'gzclient.launch.py'
+#            ])
+#        ])
+#    )
+    
+    # Gazebo launch
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_gazebo_ros, 'launch', 'gazebo.launch.py'),
+        )
+    )
 
     urdf_spawn_node = Node(
         package='gazebo_ros',
@@ -78,5 +92,7 @@ def generate_launch_description():
         #gazebo_server,
         #gazebo_client,
         urdf_spawn_node,
+        gazebo,
+        car,
 
     ])

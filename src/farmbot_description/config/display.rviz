@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /RobotModel1
         - /TF1
+        - /RobotModel1/Status1
       Splitter Ratio: 0.5
     Tree Height: 617
   - Class: rviz_common/Selection
