@@ -13,12 +13,12 @@
             <num_wheel_pairs>2</num_wheel_pairs>
 
             <!-- wheels0 -->
-            <left_joint>Revolute 3</left_joint>
-            <right_joint>Revolute 2</right_joint>
-
-            <!-- wheels1-->
             <left_joint>Revolute 5</left_joint>
             <right_joint>Revolute 4</right_joint>
+
+            <!-- wheels1-->
+            <left_joint>Revolute 3</left_joint>
+            <right_joint>Revolute 2</right_joint>
 
             <!-- kinematics -->
             <wheel_separation>0.23</wheel_separation>

@@ -1,0 +1,19 @@
+[1.000s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[1.351s] running develop
+[1.571s] running egg_info
+[1.571s] writing farmbot_description.egg-info/PKG-INFO
+[1.571s] writing dependency_links to farmbot_description.egg-info/dependency_links.txt
+[1.572s] writing entry points to farmbot_description.egg-info/entry_points.txt
+[1.572s] writing requirements to farmbot_description.egg-info/requires.txt
+[1.572s] writing top-level names to farmbot_description.egg-info/top_level.txt
+[1.618s] reading manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.619s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.672s] running build_ext
+[1.673s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[1.674s] 
+[1.674s] Installed /home/jg/farmbot_ws/build/farmbot_description
+[1.675s] running install_data
+[1.675s] copying urdf/materials.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.675s] copying urdf/inertial_macros.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.675s] copying urdf/lidar.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.715s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
