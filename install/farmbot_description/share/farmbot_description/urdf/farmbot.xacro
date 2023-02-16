@@ -6,6 +6,7 @@
 <xacro:include filename="$(find farmbot_description)/urdf/farmbot.gazebo" />
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control.xacro" />  # Diff drive Controller  -->
 <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_skid.xacro" />  <!-- Skid Steer Controller-->
+<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_tricycle.xacro" />  <!-- trycicle Steer Controller-->
 <xacro:include filename="lidar.xacro" />
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_acker.xacro" /> --> <!-- Ackermann Controller-->
 
@@ -136,7 +137,7 @@
   </collision>
 </link>
 
-<joint name="Revolute 1" type="fixed"> <!-- steering joint -->
+<joint name="Revolute 1" type="continuous"> <!-- steering joint -->
   <origin xyz="-0.0625 0.0 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="component__1__1"/>
@@ -158,15 +159,15 @@
 </joint>
 
 <joint name="Revolute 4" type="continuous"> <!-- front right wheel -->
-  <origin xyz="-0.161565 0.166785 0.087" rpy="0 0 0"/>
-  <parent link="base_link"/>
+  <origin xyz="-0.161565 0.166785 0.0" rpy="0 0 0"/>
+  <parent link="component__1__1"/>
   <child link="component__2__3"/>
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 5" type="continuous"> <!-- front left wheel -->
-  <origin xyz="-0.161565 -0.166784 0.087" rpy="0 0 0"/>
-  <parent link="base_link"/>
+  <origin xyz="-0.161565 -0.166784 0.0" rpy="0 0 0"/>
+  <parent link="component__1__1"/>
   <child link="component__2__4"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>

@@ -4,14 +4,13 @@
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.xml
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/display.launch.py
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/gazebo.launch.py
-/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_skid.xacro
+/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_tricycle.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/materials.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/inertial_macros.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.trans
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.gazebo
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/lidar.xacro
-/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbotWorkingArchieve.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__3.stl
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__1.stl
