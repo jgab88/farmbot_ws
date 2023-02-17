@@ -102,14 +102,14 @@
     <inertia ixx="0.063249" iyy="0.063249" izz="0.081111" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.161565 -0.166785 0.0" rpy="${pi/2} 0 0"/>
+    <origin xyz="0.161565 -.166784 0.0" rpy="${pi/2} 0 0"/>
     <geometry>
       <mesh filename="file://$(find farmbot_description)/meshes/component__2__3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.161565 -0.166785 0.0" rpy="${pi/2} 0 0"/>
+    <origin xyz="0.161565 -0.166784 0.0" rpy="${pi/2} 0 0"/>
     <geometry>
       <mesh filename="file://$(find farmbot_description)/meshes/component__2__3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -123,14 +123,14 @@
     <inertia ixx="0.063249" iyy="0.063249" izz="0.081111" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.161565 0.166784 0.0" rpy="${pi/2} 0 0"/>
+    <origin xyz="0.161565 0.166785 0.0" rpy="${pi/2} 0 0"/>
     <geometry>
       <mesh filename="file://$(find farmbot_description)/meshes/component__2__4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.161565 0.166784 0.0" rpy="${pi/2} 0 0"/>
+    <origin xyz="0.161565 0.166785 0.0" rpy="${pi/2} 0 0"/>
     <geometry>
       <mesh filename="file://$(find farmbot_description)/meshes/component__2__4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -159,14 +159,14 @@
 </joint>
 
 <joint name="Revolute 4" type="continuous"> <!-- front right wheel -->
-  <origin xyz="-0.161565 0.166785 0.0" rpy="0 0 0"/>
+  <origin xyz="-0.100493 0.166785 0" rpy="0 0 0"/>
   <parent link="component__1__1"/>
   <child link="component__2__3"/>
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 5" type="continuous"> <!-- front left wheel -->
-  <origin xyz="-0.161565 -0.166784 0.0" rpy="0 0 0"/>
+  <origin xyz="-0.100493 -0.166785 0" rpy="0 0 0"/>
   <parent link="component__1__1"/>
   <child link="component__2__4"/>
   <axis xyz="0.0 1.0 0.0"/>

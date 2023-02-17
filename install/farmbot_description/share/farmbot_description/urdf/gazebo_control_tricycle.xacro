@@ -12,14 +12,15 @@
 
             <!-- wheels -->
             <steering_joint>Revolute 1</steering_joint>
-            <actuated_wheel_joint>Revolute 2</actuated_wheel_joint>
+            <actuated_wheel_joint>Revolute 1</actuated_wheel_joint>
             <encoder_wheel_left_joint>Revolute 3</encoder_wheel_left_joint>
             <encoder_wheel_right_joint>Revolute 2</encoder_wheel_right_joint>
 
             <!-- kinematics -->
-            <wheel_separation>1.0</wheel_separation>
-            <encoder_wheel_diameter>0.3</encoder_wheel_diameter>
-            <actuated_wheel_diameter>0.3</actuated_wheel_diameter>
+            <wheel_separation>.23</wheel_separation>
+            <encoder_wheel_diameter>0.17</encoder_wheel_diameter>
+            <actuated_wheel_diameter>0.17</actuated_wheel_diameter>
+            <steering_angle_tolerance>.047</steering_angle_tolerance>
 
             <!-- limits -->
             <max_wheel_torque>20</max_wheel_torque>
