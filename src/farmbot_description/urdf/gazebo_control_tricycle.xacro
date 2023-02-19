@@ -3,6 +3,7 @@
 
     <gazebo>
         <plugin name='tricycle_drive' filename='libgazebo_ros_tricycle_drive.so'>
+        
 
             <!-- <ros>
                 <namespace>farmbot_description</namespace>
@@ -16,15 +17,17 @@
             <encoder_wheel_left_joint>Revolute 3</encoder_wheel_left_joint>
             <encoder_wheel_right_joint>Revolute 2</encoder_wheel_right_joint>
 
+           
+
             <!-- kinematics -->
             <wheel_separation>.23</wheel_separation>
             <encoder_wheel_diameter>0.17</encoder_wheel_diameter>
             <actuated_wheel_diameter>0.17</actuated_wheel_diameter>
-            <!-- <steering_angle_tolerance>.047</steering_angle_tolerance> -->
+            <steering_angle_tolerance>.047</steering_angle_tolerance>
 
             <!-- limits -->
-            <max_wheel_torque>20</max_wheel_torque>
-            <max_wheel_acceleration>5.0</max_wheel_acceleration>
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_wheel_acceleration>10</max_wheel_acceleration>
             <max_steering_speed>1.0</max_steering_speed>
 
             <!-- output -->

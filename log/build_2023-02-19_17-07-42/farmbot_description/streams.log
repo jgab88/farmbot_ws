@@ -1,0 +1,26 @@
+[1.002s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build
+[1.356s] running develop
+[1.592s] Removing /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[1.622s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build
+[1.628s] Invoking command in '/home/jg/farmbot_ws/src/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/farmbot_description build --build-base /home/jg/farmbot_ws/build/farmbot_description/build install --record /home/jg/farmbot_ws/build/farmbot_description/install.log --install-scripts $base/lib/farmbot_description --single-version-externally-managed
+[1.973s] running egg_info
+[1.974s] writing ../../build/farmbot_description/farmbot_description.egg-info/PKG-INFO
+[1.975s] writing dependency_links to ../../build/farmbot_description/farmbot_description.egg-info/dependency_links.txt
+[1.975s] writing entry points to ../../build/farmbot_description/farmbot_description.egg-info/entry_points.txt
+[1.975s] writing requirements to ../../build/farmbot_description/farmbot_description.egg-info/requires.txt
+[1.976s] writing top-level names to ../../build/farmbot_description/farmbot_description.egg-info/top_level.txt
+[2.023s] reading manifest file '../../build/farmbot_description/farmbot_description.egg-info/SOURCES.txt'
+[2.025s] writing manifest file '../../build/farmbot_description/farmbot_description.egg-info/SOURCES.txt'
+[2.025s] running build
+[2.026s] running build_py
+[2.026s] running install
+[2.027s] running install_lib
+[2.028s] creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description
+[2.028s] copying /home/jg/farmbot_ws/build/farmbot_description/build/lib/farmbot_description/__init__.py -> /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description
+[2.029s] byte-compiling /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description/__init__.py to __init__.cpython-38.pyc
+[2.031s] running install_data
+[2.032s] running install_egg_info
+[2.034s] Copying ../../build/farmbot_description/farmbot_description.egg-info to /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot_description-0.0.0-py3.8.egg-info
+[2.036s] running install_scripts
+[2.061s] writing list of installed files to '/home/jg/farmbot_ws/build/farmbot_description/install.log'
+[2.092s] Invoked command in '/home/jg/farmbot_ws/src/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/farmbot_description build --build-base /home/jg/farmbot_ws/build/farmbot_description/build install --record /home/jg/farmbot_ws/build/farmbot_description/install.log --install-scripts $base/lib/farmbot_description --single-version-externally-managed
