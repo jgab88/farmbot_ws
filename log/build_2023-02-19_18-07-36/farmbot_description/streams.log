@@ -1,0 +1,47 @@
+[1.067s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[1.427s] running develop
+[1.649s] running egg_info
+[1.650s] creating farmbot_description.egg-info
+[1.650s] writing farmbot_description.egg-info/PKG-INFO
+[1.650s] writing dependency_links to farmbot_description.egg-info/dependency_links.txt
+[1.651s] writing entry points to farmbot_description.egg-info/entry_points.txt
+[1.651s] writing requirements to farmbot_description.egg-info/requires.txt
+[1.651s] writing top-level names to farmbot_description.egg-info/top_level.txt
+[1.652s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.698s] reading manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.699s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.756s] running build_ext
+[1.756s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/site.py
+[1.759s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[1.760s] 
+[1.761s] Installed /home/jg/farmbot_ws/build/farmbot_description
+[1.761s] running install_data
+[1.761s] creating /home/jg/farmbot_ws/install/farmbot_description/share/ament_index
+[1.762s] creating /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index
+[1.762s] creating /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/packages
+[1.762s] copying resource/farmbot_description -> /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/packages
+[1.763s] copying package.xml -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description
+[1.763s] creating /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[1.763s] copying launch/display.launch.py -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[1.764s] copying launch/gazebo.launch.py -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch
+[1.764s] creating /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.764s] copying urdf/gazebo_control_acker.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.765s] copying urdf/gazebo_control_tricycle.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.765s] copying urdf/gazebo_control_skid.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.766s] copying urdf/materials.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.766s] copying urdf/inertial_macros.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.766s] copying urdf/farmbot.trans -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.766s] copying urdf/farmbot.gazebo -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.767s] copying urdf/farmbot.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.767s] copying urdf/lidar.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.767s] copying urdf/farmbotWorkingArchieve.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.767s] creating /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.768s] copying meshes/component__2__3.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.768s] copying meshes/component__2__1.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.768s] copying meshes/component__2__4.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.768s] copying meshes/component__1__1.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.768s] copying meshes/base_link.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.769s] copying meshes/component__2__2.stl -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes
+[1.769s] creating /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config
+[1.769s] copying config/display.rviz -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config
+[1.810s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data

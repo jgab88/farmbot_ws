@@ -26,6 +26,7 @@ urdf/farmbot.gazebo
 urdf/farmbot.trans
 urdf/farmbot.xacro
 urdf/farmbotWorkingArchieve.xacro
+urdf/gazebo_control_acker.xacro
 urdf/gazebo_control_skid.xacro
 urdf/gazebo_control_tricycle.xacro
 urdf/inertial_macros.xacro

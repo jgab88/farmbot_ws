@@ -5,10 +5,10 @@
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/farmbot.trans" /> -->
 <xacro:include filename="$(find farmbot_description)/urdf/farmbot.gazebo" />
 <!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control.xacro" />  # Diff drive Controller  -->
-<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_skid.xacro" />  <!-- Skid Steer Controller-->
-<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_tricycle.xacro" />  <!-- trycicle Steer Controller-->
+<!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_skid.xacro" /> --> <!-- Skid Steer Controller-->
+<!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_tricycle.xacro" /> --> <!-- trycicle Steer Controller-->
 <xacro:include filename="lidar.xacro" />
-<!-- <xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_acker.xacro" /> --> <!-- Ackermann Controller-->
+<xacro:include filename="$(find farmbot_description)/urdf/gazebo_control_acker.xacro" /> <!-- Ackermann Controller-->
 
 
 <link name="base_link">
@@ -137,6 +137,51 @@
   </collision>
 </link>
 
+<link name="right_steering_link">
+  <inertial>
+    <origin xyz="3.7769361843631444e-07 -3.5857001496231076e-07 -0.005961668903388867" rpy="0 0 0"/>
+    <mass value="0.01"/>
+    <inertia ixx="0.063249" iyy="0.063249" izz="0.081111" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0625 0.0 0.0" rpy="${pi/2} 0 0"/>
+    <geometry>
+            <box size="0.01 0.01 0.01"/>
+    </geometry>    
+  </visual>
+  <collision>
+    <origin xyz="0.0625 0.0 0.0" rpy="${pi/2} 0 0"/>
+    <geometry>
+            <box size="0.01 0.01 0.01"/>
+    </geometry>
+  </collision>
+</link>
+
+
+
+
+<link name="left_steering_link">
+  <inertial>
+    <origin xyz="3.7769361843631444e-07 -3.5857001489125644e-07 0.005961691828770765" rpy="0 0 0"/>
+    <mass value="0.01"/>
+    <inertia ixx="0.063249" iyy="0.063249" izz="0.081111" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0625 0.0 0.0" rpy="${pi/2} 0 0"/>
+    <geometry>
+            <box size="0.01 0.01 0.01"/>
+    </geometry> 
+  </visual>
+  <collision>
+    <origin xyz="0.0625 0.0 0.0" rpy="${pi/2} 0 0"/>
+    <geometry>
+            <box size="0.01 0.01 0.01"/>
+    </geometry>
+  </collision>
+</link>
+
+
+
 <joint name="Revolute 1" type="continuous"> <!-- steering joint -->
   <origin xyz="-0.0625 0.0 0.087" rpy="0 0 0"/>
   <parent link="base_link"/>
@@ -165,11 +210,25 @@
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
+<joint name="Revolute 6" type="continuous"> <!-- front right steering -->
+  <origin xyz="0.0625 0.0 0.0" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_steering_link"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
 <joint name="Revolute 5" type="continuous"> <!-- front left wheel -->
   <origin xyz="-0.100493 -0.166785 0" rpy="0 0 0"/>
   <parent link="component__1__1"/>
   <child link="component__2__4"/>
   <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 7" type="continuous"> <!-- front left steering -->
+  <origin xyz="0.0625 0.0 0.0" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_steering_link"/>
+  <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
 </robot>

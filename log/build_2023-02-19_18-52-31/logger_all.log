@@ -1,0 +1,168 @@
+[0.548s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.548s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fce8c5e17c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=10, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fce8c5e17c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fce8c5e1ca0>)
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.598s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jg/farmbot_ws'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(archieved) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/farmbot_description) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/farmbot_description' with type 'ros.ament_python' and name 'farmbot_description'
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.693s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jg/farmbot_ws/install
+[0.694s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jg/car_ws/install
+[0.696s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jg/neor_mini/mini_sim20_ws/install
+[0.699s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 315 installed packages in /opt/ros/foxy
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_target' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'farmbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'farmbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jg/farmbot_ws/build/farmbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jg/farmbot_ws/install/farmbot_description', 'merge_install': False, 'path': '/home/jg/farmbot_ws/src/farmbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.846s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.855s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jg/farmbot_ws/src/farmbot_description' with build type 'ament_python'
+[0.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('farmbot_description', 'ament_prefix_path')
+[0.863s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/ament_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/ament_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/ament_prefix_path.sh'
+[0.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.258s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jg/farmbot_ws/src/farmbot_description'
+[1.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.933s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/ament_index/resource_index/packages/farmbot_description
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.xml
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/display.launch.py
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/gazebo.launch.py
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_acker.xacro
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_tricycle.xacro
+[1.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_skid.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/materials.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/inertial_macros.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.trans
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.gazebo
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbot.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/lidar.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/farmbotWorkingArchieve.xacro
+[1.935s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__3.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__1.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__4.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__1__1.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/base_link.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/meshes/component__2__2.stl
+[1.936s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/config/display.rviz
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[2.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('farmbot_description', 'pythonpath_develop')
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/build/farmbot_description/share/farmbot_description/hook/pythonpath_develop.ps1'
+[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jg/farmbot_ws/build/farmbot_description/share/farmbot_description/hook/pythonpath_develop.dsv'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/build/farmbot_description/share/farmbot_description/hook/pythonpath_develop.sh'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description' for CMake module files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description' for CMake config files
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description/lib'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description/bin'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description/lib/pkgconfig/farmbot_description.pc'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages'
+[2.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('farmbot_description', 'pythonpath')
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/pythonpath.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/pythonpath.dsv'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/hook/pythonpath.sh'
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/jg/farmbot_ws/install/farmbot_description/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(farmbot_description)
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.ps1'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.sh'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.bash'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.zsh'
+[2.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jg/farmbot_ws/install/farmbot_description/share/colcon-core/packages/farmbot_description)
+[2.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.780s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.821s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jg/farmbot_ws/install/local_setup.ps1'
+[2.826s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jg/farmbot_ws/install/_local_setup_util_ps1.py'
+[2.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jg/farmbot_ws/install/setup.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jg/farmbot_ws/install/local_setup.sh'
+[2.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jg/farmbot_ws/install/_local_setup_util_sh.py'
+[2.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jg/farmbot_ws/install/setup.sh'
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jg/farmbot_ws/install/local_setup.bash'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jg/farmbot_ws/install/setup.bash'
+[2.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jg/farmbot_ws/install/local_setup.zsh'
+[2.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jg/farmbot_ws/install/setup.zsh'

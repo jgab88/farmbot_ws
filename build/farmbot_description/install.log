@@ -4,6 +4,7 @@
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/package.xml
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/display.launch.py
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/launch/gazebo.launch.py
+/home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_acker.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_tricycle.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/gazebo_control_skid.xacro
 /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf/materials.xacro

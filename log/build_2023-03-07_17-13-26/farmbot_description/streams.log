@@ -1,0 +1,17 @@
+[1.047s] Invoking command in '/home/jg/farmbot_ws/build/farmbot_description': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
+[1.428s] running develop
+[1.670s] running egg_info
+[1.670s] writing farmbot_description.egg-info/PKG-INFO
+[1.671s] writing dependency_links to farmbot_description.egg-info/dependency_links.txt
+[1.671s] writing entry points to farmbot_description.egg-info/entry_points.txt
+[1.672s] writing requirements to farmbot_description.egg-info/requires.txt
+[1.672s] writing top-level names to farmbot_description.egg-info/top_level.txt
+[1.721s] reading manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.722s] writing manifest file 'farmbot_description.egg-info/SOURCES.txt'
+[1.780s] running build_ext
+[1.780s] Creating /home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages/farmbot-description.egg-link (link to .)
+[1.782s] 
+[1.782s] Installed /home/jg/farmbot_ws/build/farmbot_description
+[1.782s] running install_data
+[1.782s] copying urdf/gazebo_control_acker.xacro -> /home/jg/farmbot_ws/install/farmbot_description/share/farmbot_description/urdf
+[1.829s] Invoked command in '/home/jg/farmbot_ws/build/farmbot_description' returned '0': PYTHONPATH=/home/jg/farmbot_ws/build/farmbot_description/prefix_override:/home/jg/farmbot_ws/install/farmbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jg/farmbot_ws/build/farmbot_description/build --no-deps install_data
